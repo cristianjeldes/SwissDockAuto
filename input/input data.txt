@@ -1,0 +1,15 @@
+GAT-1: target 
+Dehu.mol2: ligando. /creo, si no resulta probar con el pdb. 
+
+Coordenadas para el docking: 
+X:6.552
+Y:-21.831
+Z:11.401
+
+size: 20 en todo. 
+
+Acurate: im gonna be lucky ;) 
+Flexibilidad: 1 
+
+
+ 
