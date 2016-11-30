@@ -1,7 +1,7 @@
 import os
 #generar gif
 ## EDITAR DIRECTORIO
-actual= 'DEHU_4PYP_OUT'
+actual= 'TESTING'
 directorio='./' + actual
 
 directorio_clusters=directorio+'/clusters'

@@ -6,8 +6,9 @@ import pylab as P
 from zipfile import ZipFile
 import os.path
 import tarfile
+from subprocess import call
 
-DockName= 'DEHU_4PYP_OUT' #Esto deberia estar disponible
+DockName= 'TESTING' #Esto deberia estar disponible
 path= os.path.join('./', DockName)
 if not os.path.isdir(path):
     os.makedirs (path)
@@ -32,9 +33,11 @@ if not os.path.isdir(pathImages):
 with ZipFile(path+'/clusters.zip') as myzip:
     myzip.extractall(pathClusters )
 
-with tarfile.open(path+'/complexes.tar.xz') as f:
-    f.extractall(pathComplexes)
-
+fp = open(path+"/complexes.tar.xz", 'rb')
+o = open(path+"/complexes/complexes.tar", 'wb')
+call(["7z", "e",path+"/complexes.tar.xz"])
+with tarfile.open(path+"/complexes.tar") as f:
+	f.extractall(pathComplexes)
 
 archivo = open(path+ "/clusters.dock4.csv", "r")
 contenido = archivo.read()
@@ -52,7 +55,7 @@ f.close()
 #LEER CSV COMO DATA FRAME
 Frame=  pd.read_csv(path +'/salida.csv')
 
-#SELECCIONAR COLS: N° CLUSTERS & DELTA G
+#SELECCIONAR COLS: N CLUSTERS y DELTA G
 
 COLS = Frame[[0, 2]]
 
@@ -64,7 +67,7 @@ COLS2= COLS.groupby('Cluster').mean()
 #GRAFICAR. (?)
 #####NO ME SALE EL MONITO
 
-#MEDIA POBLACIONAL y DESVIACIÓN ESTANDAR.
+#MEDIA POBLACIONAL y DESVIACION ESTANDAR.
 MEDIA= str(float(COLS2.mean()))
 ERROR= str(float(COLS2.std()))
 resultado= [MEDIA, ERROR]

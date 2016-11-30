@@ -14,11 +14,12 @@ time.sleep(5) #Para que no tenga problemas en cargar el html y reconozca las opc
 
 #Acciones para el target
 target = browser.find_element_by_id("DockingTargetUpload")
-#target.send_keys('/home/gabriel/Desktop/BioInfo/input/GAT-1.pdb') # La ruta debe ser absoluta
+basePath = "E:\\Escritorio\\Aplicaciones y paginas web\\CeBiB BioInformatica SwissDock\\SwissDockAuto\\input\\"
+target.send_keys(basePath+'/GAT-1.pdb') # La ruta debe ser absoluta
 
 #Acciones para el ligand
 ligand = browser.find_element_by_id("DockingLigandUpload")
-#ligand.send_keys('/home/gabriel/Desktop/BioInfo/input/DEHU.mol2') # La ruta debe ser absoluta
+ligand.send_keys(basePath+'DEHU.mol2') # La ruta debe ser absoluta
 
 #Acciones para parametros
 #Centers
@@ -40,7 +41,7 @@ zsize.send_keys("")
 job_name = browser.find_element_by_id("DockingJobName")
 job_name.send_keys("Test1")
 email = browser.find_element_by_id("DockingEmail")
-email.send_keys("gg@cebib.cl")
+email.send_keys("vodcon@gmail.com")
 
 #Acciones para opciones
 docking_type = browser.find_element_by_id("DockingDockingType")
@@ -56,5 +57,12 @@ for option in flexibility.find_elements_by_tag_name('option'):
 #Submit
 browser.find_element_by_id("StartDockingButton").click()
 
+#Esperamos 5 seg para que se envien los archivos
+time.sleep(5)
+
+#Ahora buscamos el id del docking o el enlace para recibir los archivos
+linkToJob = browser.find_element_by_link_text('here')
+jobId = linkToJob.get_attribute("href").replace("http://www.swissdock.ch/docking/view/","")
+print jobId
 #Se cierra el navegador
 browser.close()

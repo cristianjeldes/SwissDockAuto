@@ -1,0 +1,4 @@
+[1130/021553:ERROR:process_reader_win.cc(142)] SuspendThread: Acceso denegado. (0x5)
+[1130/021553:ERROR:process_reader_win.cc(114)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso.  (0xc0000022)
+[1130/021553:ERROR:exception_snapshot_win.cc(87)] thread ID 7036 not found in process
+[1130/021553:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
