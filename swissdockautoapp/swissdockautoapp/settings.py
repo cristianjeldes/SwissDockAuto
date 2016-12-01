@@ -76,8 +76,13 @@ WSGI_APPLICATION = 'swissdockautoapp.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'swissautodb',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+        'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
     }
 }
 

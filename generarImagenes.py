@@ -17,7 +17,7 @@ for file in os.listdir(directorio_clusters):
 			break
 	f.close()
 
-delta_g=sorted(delta_g, key=lambda delta_g: delta_g[1], reverse=True)
+delta_g = sorted(delta_g, key=lambda delta_g: delta_g[1], reverse=True)
 
 import __main__
 __main__.pymol_argv = ['pymol','-qc'] # Pymol: quiet and no GUI

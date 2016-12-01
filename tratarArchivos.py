@@ -7,7 +7,7 @@ from zipfile import ZipFile
 import os.path
 import tarfile
 from subprocess import call
-
+import os
 DockName= 'TESTING' #Esto deberia estar disponible
 path= os.path.join('./', DockName)
 if not os.path.isdir(path):
@@ -33,11 +33,15 @@ if not os.path.isdir(pathImages):
 with ZipFile(path+'/clusters.zip') as myzip:
     myzip.extractall(pathClusters )
 
-fp = open(path+"/complexes.tar.xz", 'rb')
-o = open(path+"/complexes/complexes.tar", 'wb')
-call(["7z", "e",path+"/complexes.tar.xz"])
-with tarfile.open(path+"/complexes.tar") as f:
+call(["7z", "e",path+"/complexes.tar.xz","-aoa"])
+
+with tarfile.open("complexes.tar") as f:
 	f.extractall(pathComplexes)
+
+try:
+    os.remove("complexes.tar")
+except OSError:
+    pass
 
 archivo = open(path+ "/clusters.dock4.csv", "r")
 contenido = archivo.read()
