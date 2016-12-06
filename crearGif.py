@@ -36,5 +36,3 @@ print ("longitud de la lista = ", len(lstFiles))
 
 filename =path+ "/my_gif.gif"
 doGif(filename, lstFiles, duration=0.5)
-
-

@@ -1,0 +1,29 @@
+{% extends 'dockautoapp/base.html' %}
+{% block content %}
+<div class="bodyContent col-md-8 center-block">
+	<form method="post" action="/crearjob" enctype="multipart/form-data">
+		{% csrf_token %}
+		<div class="form-group" style="width:500px;margin: 0 auto;">
+			<div class="row">
+				<label for="jobname">Ingrese un nombre para el trabajo
+					<input class="form-control" type="text" name="jobname" placeholder="Ejemplo:Galacturonic con 4PYP">
+				</label>
+			</div>
+			<div class="row">
+				<label for="targetfile">Seleccione el target<input class="form-control" type="file" name="targetfile"></label>
+			</div>
+			<div class="row">
+				<label for="ligandfile">Seleccione el ligando<input class="form-control" type="file" name="ligandfile"></label>
+			</div>
+			<div class="row">
+				<label for="dockingpoints">Ingrese los puntos de entrada para el docking separados por una coma
+					<input class="form-control" type="text" name="dockingpoints" placeholder="Ejemplo:300,400,67">
+				</label>
+			</div>
+			<input class="btn-primary btn" style="margin:0 auto;" type="submit" value="Crear docking"/>
+		</div>
+	</form>
+</div>
+{% endblock %}
+{% block js %}
+{% endblock %}

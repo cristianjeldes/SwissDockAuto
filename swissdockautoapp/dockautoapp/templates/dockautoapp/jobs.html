@@ -1,0 +1,53 @@
+{% extends 'dockautoapp/base.html' %}
+{% block content %}
+<div class="bodyContent center-block">
+	<table id="tablaJobs" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Nombre de job</th>
+                <th>Swissdock id</th>
+                <th>Target</th>
+                <th>Ligand</th>
+                <th>Puntos de entrada a docking</th>
+                <th>Estado</th>
+                <th>Resultado</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Nombre de job</th>
+                <th>Swissdock id</th>
+                <th>Target</th>
+                <th>Ligand</th>
+                <th>Puntos de entrada a docking</th>
+                <th>Estado</th>
+                <th>Resultado</th>
+            </tr>
+        </tfoot>
+        <tbody>
+          {% for job in jobs %}
+            <tr>
+                <td>{{job.nombrejob}}</td>
+                <td>{{job.swissdockid}}</td>
+                <td>{{job.idtarget.nombre}}</td>
+                <td>{{job.idligand.nombre}}</td>
+                <td>{{job.puntosentrada}}</td>
+                <td>{{job.idestado.nombre}}</td>
+                {% if job.idestado.pk == 2 %}
+	                <td>Ver resultado</td>
+	            {% else %}
+	                <td>No disponible</td>
+                {% endif %}
+            </tr>
+          {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
+{% block js %}
+<script>
+$(document).ready(function() {
+    $('#tablaJobs').DataTable();
+} );
+</script>
+{% endblock %}

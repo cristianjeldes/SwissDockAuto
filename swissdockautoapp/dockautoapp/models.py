@@ -140,9 +140,10 @@ class Job(models.Model):
     pathresultado = models.TextField(db_column='PATHRESULTADO', blank=True, null=True)  # Field name made lowercase.
     errorresultado = models.FloatField(db_column='ERRORRESULTADO', blank=True, null=True)  # Field name made lowercase.
     deltagpromedio = models.FloatField(db_column='DELTAGPROMEDIO', blank=True, null=True)  # Field name made lowercase.
-    jerarquiajob = models.IntegerField(db_column='JERARQUIAJOB', blank=True, null=True)  # Field name made lowercase.
     fechahoracreacion = models.DateTimeField(db_column='FECHAHORACREACION', blank=True, null=True)  # Field name made lowercase.
     fechahoratermino = models.DateTimeField(db_column='FECHAHORATERMINO', blank=True, null=True)  # Field name made lowercase.
+    nombrejob = models.TextField(db_column='NOMBREJOB', blank=True, null=True)  # Field name made lowercase.
+    puntosentrada = models.TextField(db_column='PUNTOSENTRADA', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
         managed = False
