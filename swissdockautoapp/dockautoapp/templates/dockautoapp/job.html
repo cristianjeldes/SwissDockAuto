@@ -1,0 +1,49 @@
+{% extends 'dockautoapp/base.html' %}
+{% block content %}
+<div class="bodyContent center-block">
+	<div class="row">
+        <h1>{{job.nombrejob}}</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6">
+                    Target: {{job.idtarget.nombre}}
+                </div>
+                <div class="col-md-6">
+                    Ligand: {{job.idligand.nombre}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6">
+                    Fecha y hora de inicio: {{job.fechahoracreacion}}
+                </div>
+                <div class="col-md-6">
+                    Fecha y hora de término: {{job.fechahoratermino}}
+                </div>
+            </div>
+            <div class="jumbotron">
+                <img src="/static/img/{{job.swissdockid}}.gif">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6">
+                    Delta G promedio: {{job.deltagpromedio}}
+                </div>
+                <div class="col-md-6">
+                    Error: {{job.errorresultado}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block js %}
+{% endblock %}

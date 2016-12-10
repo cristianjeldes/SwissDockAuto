@@ -1,4 +1,3 @@
-import os
 #generar gif
 ## EDITAR DIRECTORIO
 actual= 'TESTING'

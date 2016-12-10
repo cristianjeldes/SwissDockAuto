@@ -34,7 +34,7 @@
                 <td>{{job.puntosentrada}}</td>
                 <td>{{job.idestado.nombre}}</td>
                 {% if job.idestado.pk == 2 %}
-	                <td>Ver resultado</td>
+	                <td><a href="/verjob/{{job.swissdockid}}">Ver resultado</a></td>
 	            {% else %}
 	                <td>No disponible</td>
                 {% endif %}

@@ -3,14 +3,16 @@ from django.http import HttpResponse
 from django.views import View
 from django.contrib.auth import authenticate
 from selenium import webdriver
+from django.utils import timezone
 import time
 import requests
 import os
 from dockautoapp.models import *
-global basePath
-import datetime
 import math
+
+global basePath
 basePath = "E:\\Escritorio\\Aplicaciones y paginas web\\CeBiB BioInformatica SwissDock\\SwissDockAuto\\swissdockautoapp\\dockingfiles\\"
+
 def handleUploadedFile(jobname,f):
 	global basePath
 	path = basePath+jobname+"\\"
@@ -159,7 +161,7 @@ class CrearJobView(View):
 		estado = Estadojob.objects.get(pk=3)
 		job = Job(None,project.pk,estado.pk,targetObj.pk,ligandObj.pk,"",
 			basePath+jobname+"\\resultados\\",0,0,
-			datetime.datetime.now(),None,jobname,request.POST.get("dockingpoints"))
+			timezone.now(),None,jobname,request.POST.get("dockingpoints"))
 		job.save()
 		#Getting centroid, distance and used dimensions
 		XYZ,distance,usedDimensions  = calculateXYZAndDistances(dockingpoints,targetObj,jobname)
@@ -248,11 +250,15 @@ class CrearJobView(View):
 			targetObj.delete()
 			ligandObj.delete()
 			print "Problem connecting with swissdock"
-		return redirect("/revisarjob")
+		return redirect("/revisarjobs")
 class RevisarJobsView(View):
 	def get(self, request):
 		jobs = Job.objects.all()
 		return render(request, 'dockautoapp/jobs.html',{"jobs":jobs})
 class RevisarJobView(View):
-	def get(self, request):
-		return render(request, 'dockautoapp/job.html',{})
+	def get(self, request,id):
+		job = Job.objects.filter(swissdockid=id)
+		if(len(job)==0):
+			return redirect("/revisarjobs")
+		job = job[0]
+		return render(request, 'dockautoapp/job.html',{'job':job})
