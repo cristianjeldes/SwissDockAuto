@@ -1,0 +1,24 @@
+{% extends 'dockautoapp/base.html' %}
+{% block content %}
+<div class="bodyContent col-md-8 center-block">
+	<h1 style="text-align:center;">Crear Proyecto</h1>
+	<form method="post" action="/crearProyecto" enctype="multipart/form-data">
+		{% csrf_token %}
+		<div class="form-group" style="width:500px;margin: 0 auto;">
+			<div class="row">
+				<label for="projectname">Ingrese un nombre para el proyecto
+					<input class="form-control" type="text" name="projectname" placeholder="Ejemplo:Pruebas para levadura">
+				</label>
+			</div>
+			<div class="row">
+				<label for="jobdescription">Ingrese una descripción para el proyecto
+					<textarea class="form-control" type="text" name="projectdescription" placeholder="Este proyecto se usará para medir..."></textarea>
+				</label>
+			</div>
+			<input class="btn-primary btn" style="margin:0 auto;" type="submit" value="Crear proyecto"/>
+		</div>
+	</form>
+</div>
+{% endblock %}
+{% block js %}
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends 'dockautoapp/base.html' %}
+{% block content %}
+<div class="bodyContent center-block">
+	{%for proyecto in proyectos%}
+		<h1>Proyecto:<p style="display:inline;"> {{proyecto.proyecto.nombre}}</p></h1>
+		{% for testset in proyecto.testsets %}
+			<h3><a href="/verTestset/{{testset.testset.idtestset}}">{{testset.testset.nombretestset}}</a></h3>
+			<table class="display tablaJobs" cellspacing="0" width="100%">
+		        <thead>
+		            <tr>
+		                <th>Swissdock id</th>
+		                <th>Puntos de entrada a docking</th>
+		                <th>Estado</th>
+		                <th>Resultado</th>
+		            </tr>
+		        </thead>
+		        <tfoot>
+		            <tr>
+		                <th>Swissdock id</th>
+		                <th>Puntos de entrada a docking</th>
+		                <th>Estado</th>
+		                <th>Resultado</th>
+		            </tr>
+		        </tfoot>
+		        <tbody>
+		          {% for job in testset.jobs %}
+		            <tr>
+		                <td>{{job.swissdockid}}</td>
+		                <td>{{job.puntosentrada}}</td>
+		                <td title="{{job.idestado.descripcion}}">{{job.idestado.nombre}}</td>
+		                {% if job.idestado.pk == 2 %}
+			                <td><a href="/verjob/{{job.swissdockid}}">Ver resultado</a></td>
+			            {% else %}
+			                <td>No disponible</td>
+		                {% endif %}
+		            </tr>
+		          {% endfor %}
+		        </tbody>
+		    </table>
+		{% endfor %}
+		<hr>
+	{% endfor %}
+	
+</div>
+{% endblock %}
+{% block js %}
+<script>
+$(document).ready(function() {
+    $('.tablaJobs').DataTable();
+} );
+</script>
+{% endblock %}

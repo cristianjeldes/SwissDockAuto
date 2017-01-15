@@ -43,6 +43,36 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div style="padding:50px;">
+            {%for comentario in comentarios %}
+                <div class="well">
+                    <h4>{{comentario.autorcomentario}}</h4>
+                    <p>{{comentario.descripcioncomentario}}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="row">
+        <h3 style="text-align:center;">Ingresar comentario</h1>
+        <form method="post" action="/verjob/{{job.swissdockid}}" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="form-group" style="width:500px;margin: 0 auto;">
+                <input type="hidden" value="{{job.pk}}" name="jobid"> 
+                <div class="row">
+                    <label for="autor">Ingrese su nombre
+                        <input class="form-control" type="text" name="autor" placeholder="Nombre">
+                    </label>
+                </div>
+                <div class="row">
+                    <label for="descripcion">Ingrese su comentario
+                        <textarea class="form-control" type="text" name="descripcion" placeholder="Comentario"></textarea>
+                    </label>
+                </div>
+                <input class="btn-primary btn" style="margin:0 auto;" type="submit" value="Añadir comentario"/>
+            </div>
+        </form>
+    </div>
 </div>
 {% endblock %}
 {% block js %}

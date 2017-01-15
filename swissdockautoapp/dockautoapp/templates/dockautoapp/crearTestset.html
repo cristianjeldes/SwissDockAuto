@@ -1,0 +1,71 @@
+{% extends 'dockautoapp/base.html' %}
+{% block content %}
+<div class="bodyContent col-md-8 center-block">
+	<form method="post" action="/crearTestset" enctype="multipart/form-data">
+		{% csrf_token %}
+		<div class="form-group" style="width:500px;margin: 0 auto;">
+			<div class="row">
+				<label for="projectid">Seleccione el proyecto al que pertenece
+					<select required name="projectid" class="form-control">
+						{% for proyecto in proyectos %}
+							<option value="{{proyecto.pk}}">{{proyecto.nombre}}</option>
+						{% endfor %}
+					</select>
+				</label>
+			</div>
+			<div class="row">
+				<label for="nametestset">Ingrese un nombre para el conjunto de pruebas
+					<input required class="form-control" type="text" name="nametestset" placeholder="Ejemplo:Galacturonic con 4PYP">
+				</label>
+			</div>
+			<div class="row">
+				<label for="correotestset">Ingrese un correo para recibir los resultados
+					<input required class="form-control" type="text" name="correotestset" placeholder="algo@gmail.com">
+				</label>
+			</div>
+			<div class="row">
+				<label for="targetfile">Seleccione el target<input required class="form-control" type="file" name="targetfile"></label>
+			</div>
+			<div class="row">
+				<label for="ligandfile">Seleccione el ligando<input required class="form-control" type="file" name="ligandfile"></label>
+			</div>
+			<div class="row">
+				<label for="dockingpoints[]">Ingrese los puntos de entrada para el docking separados por una coma
+					<ul id="fieldList" class="list-unstyled">
+						<li>&nbsp;</li>
+						<li id="dontdelete"><input required class="form-control" type="text" name="dockingpoints[]" placeholder="Ejemplo:300,400,67"></li>
+					</ul>
+				</label>
+				<button class="btn-success btn btn-group" id="addMore">Agregar más puntos de entrada</button>
+				<button class="btn-danger btn btn-group" id="deleteMore">Eliminar último</button>
+			</div>
+			<br>
+			<br>
+			<input class="btn-primary btn" style="margin:0 auto;" type="submit" value="Crear docking"/>
+		</div>
+	</form>
+</div>
+{% endblock %}
+{% block js %}
+<script type="text/javascript">
+$(function() {
+  $("#addMore").click(function(e) {
+    e.preventDefault();
+    $("#fieldList").append("<li>&nbsp;</li>");
+    $("#fieldList").append('<li><input required class="form-control" type="text" name="dockingpoints[]" placeholder="Ejemplo:300,400,67"></li>');
+  });
+
+});
+$(function() {
+	$("#deleteMore").click(function(e) {
+	    e.preventDefault();
+	    console.log($("#fieldList li").last().attr('id'));
+	    if($("#fieldList li").last().attr('id')=="dontdelete"){
+	    	return;
+	    }
+	    $("#fieldList li").last().remove();
+	    $("#fieldList li").last().remove();
+  });
+});
+</script>
+{% endblock %}

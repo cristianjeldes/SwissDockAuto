@@ -76,6 +76,18 @@ class AuthUserUserPermissions(models.Model):
         unique_together = (('user', 'permission'),)
 
 
+class Comentario(models.Model):
+    idcomentario = models.AutoField(db_column='IDCOMENTARIO', primary_key=True)  # Field name made lowercase.
+    id = models.ForeignKey('Job', models.DO_NOTHING, db_column='ID', blank=True, null=True)  # Field name made lowercase.
+    descripcioncomentario = models.TextField(db_column='DESCRIPCIONCOMENTARIO', blank=True, null=True)  # Field name made lowercase.
+    autorcomentario = models.TextField(db_column='AUTORCOMENTARIO', blank=True, null=True)  # Field name made lowercase.
+    fechacreacion = models.DateTimeField(db_column='FECHACREACION', blank=True, null=True)  # Field name made lowercase.
+
+    class Meta:
+        managed = False
+        db_table = 'comentario'
+
+
 class DjangoAdminLog(models.Model):
     action_time = models.DateTimeField()
     object_id = models.TextField(blank=True, null=True)
@@ -131,18 +143,16 @@ class Estadojob(models.Model):
 
 
 class Job(models.Model):
-    idjob = models.AutoField(db_column='IDJOB', primary_key=True)  # Field name made lowercase.
-    idproyecto = models.ForeignKey('Proyectojob', models.DO_NOTHING, db_column='IDPROYECTO', blank=True, null=True)  # Field name made lowercase.
+    id = models.AutoField(db_column='ID', primary_key=True)  # Field name made lowercase.
     idestado = models.ForeignKey(Estadojob, models.DO_NOTHING, db_column='IDESTADO', blank=True, null=True)  # Field name made lowercase.
-    idtarget = models.ForeignKey('Target', models.DO_NOTHING, db_column='IDTARGET', blank=True, null=True)  # Field name made lowercase.
-    idligand = models.ForeignKey('Ligand', models.DO_NOTHING, db_column='IDLIGAND', blank=True, null=True)  # Field name made lowercase.
+    idtestset = models.ForeignKey('Testset', models.DO_NOTHING, db_column='IDTESTSET', blank=True, null=True)  # Field name made lowercase.
     swissdockid = models.CharField(db_column='SWISSDOCKID', max_length=200, blank=True, null=True)  # Field name made lowercase.
     pathresultado = models.TextField(db_column='PATHRESULTADO', blank=True, null=True)  # Field name made lowercase.
     errorresultado = models.FloatField(db_column='ERRORRESULTADO', blank=True, null=True)  # Field name made lowercase.
     deltagpromedio = models.FloatField(db_column='DELTAGPROMEDIO', blank=True, null=True)  # Field name made lowercase.
+    ordenjob = models.IntegerField(db_column='ORDENJOB', blank=True, null=True)  # Field name made lowercase.
     fechahoracreacion = models.DateTimeField(db_column='FECHAHORACREACION', blank=True, null=True)  # Field name made lowercase.
     fechahoratermino = models.DateTimeField(db_column='FECHAHORATERMINO', blank=True, null=True)  # Field name made lowercase.
-    nombrejob = models.TextField(db_column='NOMBREJOB', blank=True, null=True)  # Field name made lowercase.
     puntosentrada = models.TextField(db_column='PUNTOSENTRADA', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
@@ -171,20 +181,6 @@ class Proyectojob(models.Model):
         db_table = 'proyectojob'
 
 
-class Puntodocking(models.Model):
-    idpuntodocking = models.AutoField(db_column='IDPUNTODOCKING', primary_key=True)  # Field name made lowercase.
-    idjob = models.ForeignKey(Job, models.DO_NOTHING, db_column='IDJOB', blank=True, null=True)  # Field name made lowercase.
-    xpunto = models.FloatField(db_column='XPUNTO', blank=True, null=True)  # Field name made lowercase.
-    ypunto = models.FloatField(db_column='YPUNTO', blank=True, null=True)  # Field name made lowercase.
-    zpunto = models.FloatField(db_column='ZPUNTO', blank=True, null=True)  # Field name made lowercase.
-    numberpunto = models.IntegerField(db_column='NUMBERPUNTO', blank=True, null=True)  # Field name made lowercase.
-    charpunto = models.CharField(db_column='CHARPUNTO', max_length=100, blank=True, null=True)  # Field name made lowercase.
-
-    class Meta:
-        managed = False
-        db_table = 'puntodocking'
-
-
 class Target(models.Model):
     idtarget = models.AutoField(db_column='IDTARGET', primary_key=True)  # Field name made lowercase.
     nombre = models.CharField(db_column='NOMBRE', max_length=200, blank=True, null=True)  # Field name made lowercase.
@@ -193,3 +189,16 @@ class Target(models.Model):
     class Meta:
         managed = False
         db_table = 'target'
+
+
+class Testset(models.Model):
+    idligand = models.ForeignKey(Ligand, models.DO_NOTHING, db_column='IDLIGAND')  # Field name made lowercase.
+    idtarget = models.ForeignKey(Target, models.DO_NOTHING, db_column='IDTARGET')  # Field name made lowercase.
+    idtestset = models.AutoField(db_column='IDTESTSET', primary_key=True)  # Field name made lowercase.
+    idproyecto = models.ForeignKey(Proyectojob, models.DO_NOTHING, db_column='IDPROYECTO', blank=True, null=True)  # Field name made lowercase.
+    nombretestset = models.TextField(db_column='NOMBRETESTSET', blank=True, null=True)  # Field name made lowercase.
+    correotestset = models.TextField(db_column='CORREOTESTSET', blank=True, null=True)  # Field name made lowercase.
+
+    class Meta:
+        managed = False
+        db_table = 'testset'

@@ -1,0 +1,2067 @@
+sib.fastconf.EADock3: running @ cpt171.prdclst.vital-it.ch/10.0.49.171 development version. /home/swissdock/swissdock/tmp//cache/eadock3/eadock3.jar MD5: 6b55cadf59de6f950f604b9d6d6562d2
+sib.fastconf.EADock3: 5000 binding modes will be generated
+sib.fastconf.EADock3: the 250 with the most favorable SimpleFitness will be evaluated with FACTS.
+sib.fastconf.EADock3: 250 binding modes will be retained
+sib.fastconf.EADock3: minimize with 100 steps of SD then 250 steps of ABNR
+sib.fastconf.EADock3: side chains closer than 5.0 A to any atom of the ligand will be optimized.
+sib.fastconf.EADock3: Clustering radius is 2.0
+sib.fastconf.EADock3: Maximum cluster size is 8
+sib.fastconf.EADock3: clusters will have the exact size.
+sib.fastconf.EADock3: Output file is clusters.zip
+sib.fastconf.EADock3: Ligand selection is SEGID LIG
+sib.fastconf.EADock3: temporary files will be kept.
+sib.fastconf.EADock3: Translations allowed.
+sib.fastconf.EADock3: solvation model is FACTS
+sib.fastconf.EADock3: Centering rotations on the whole ligand.
+sib.fastconf.EADock3: System  : 7811 atoms
+sib.fastconf.EADock3: Ligand  : 20 atoms
+sib.fastconf.EADock3: Receptor: 7791 atoms
+sib.fastconf.EADock3:   Fixed part   : 7434 atoms
+sib.fastconf.EADock3:   Flexible part: 357 atoms
+sib.fastconf.EADock3: Local docking
+sib.fastconf.biodatastructures.molecules.FlexibleMoleculeBuilder: No RotateBond directive found.
+sib.fastconf.biodatastructures.molecules.FlexibleMoleculeBuilder: Multiple keyword found in RotateBond directive.
+sib.fastconf.biodatastructures.molecules.FlexibleMoleculeBuilder: Identify bonds.
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Total of 19 bonds found.
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Restricting dihedral rotations based on the number of atom on each side.
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: 8 rotatable dihedral angles found.
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: no user specified bond list.
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Filtering out dihedrals defined with an hydrogen.
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: accepting bond 7795_7794_7793_7792
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: accepting bond 7796_7795_7794_7793
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: accepting bond 7797_7796_7795_7794
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: accepting bond 7795_7796_7797_7798
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: accepting bond 7796_7797_7798_7799
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: found # 6 core atoms : [ 7795 7796 7797 7801 7808 7811 ]
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: found rotatable bond # 0 between 7794 7793
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group FIX (15): [ 7795 7802 7796 7806 7807 7797 7801 7808 7798 7800 7809 7799 7804 7810 7811 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group ROTATABLE (3): [ 7792 7805 7803 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group ROTATABLE (Validation) (2): [ 7792 7803 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group ROTATABLE (Non Validation) (0): [ ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: found rotatable bond # 1 between 7795 7794
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group FIX (13): [ 7796 7806 7807 7797 7801 7808 7798 7800 7809 7799 7804 7810 7811 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group ROTATABLE (5): [ 7792 7793 7805 7803 7802 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group ROTATABLE (Validation) (2): [ 7793 7802 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group ROTATABLE (Non Validation) (3): [ 7792 7805 7803 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: found rotatable bond # 2 between 7796 7795
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group FIX (10): [ 7797 7801 7808 7798 7800 7809 7799 7804 7810 7811 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group ROTATABLE (8): [ 7792 7793 7805 7794 7803 7802 7806 7807 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group ROTATABLE (Validation) (1): [ 7794 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group ROTATABLE (Non Validation) (5): [ 7792 7793 7805 7803 7802 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: found rotatable bond # 3 between 7796 7797
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group FIX (12): [ 7792 7793 7805 7794 7803 7795 7802 7806 7807 7801 7808 7811 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group ROTATABLE (6): [ 7798 7800 7809 7799 7804 7810 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group ROTATABLE (Validation) (2): [ 7798 7800 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group ROTATABLE (Non Validation) (2): [ 7799 7804 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: found rotatable bond # 4 between 7797 7798
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group FIX (16): [ 7792 7793 7805 7794 7803 7795 7802 7796 7806 7807 7801 7808 7800 7809 7811 7810 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group ROTATABLE (2): [ 7799 7804 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group ROTATABLE (Validation) (1): [ 7799 ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Group ROTATABLE (Non Validation) (0): [ ] 
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Bond 7796 7795 has no putative parent, best bet is root node
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Bond 7796 7797 has no putative parent, best bet is root node
+sib.fastconf.biodatastructures.molecules.FlexibleMoleculeRotatable bond tree initialized 6 elements
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Detecting chiral carbons
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Atom 7796 C3   [ 0.217 -0.318 0.097 ] is chiral
+sib.fastconf.biodatastructures.molecules.FlexibleMolecule: Atom 7797 C4   [ 0.851 -0.86 -1.188 ] is chiral
+sib.fastconf.FastconfBuilder: Initialize non bonded list.
+sib.fastconf.biodatastructures.scoring.moleculargrids.grids.InsideMolecularGrid: Calculating inside grid [501][436][574]
+sib.fastconf.biodatastructures.scoring.moleculargrids.grids.InsideMolecularGrid: Inside grid calculated in 3320 ms
+sib.fastconf.biodatastructures.scoring.moleculargrids.grids.InsideMolecularGrid: Smoothing inside grid.
+sib.fastconf.biodatastructures.scoring.moleculargrids.grids.InsideMolecularGrid: Inside grid smoothed in 3380 ms
+sib.fastconf.biodatastructures.scoring.EvaluatorBuilder: generation of the electrostatic grid took 50 ms.
+sib.fastconf.FastconfBuilder: Initial energy: 5157.6733
+sib.fastconf.EADock3: EADock3 starting
+sib.fastconf.EADock3: Box volume 2743.9998 Å
+sib.fastconf.EADock3: Xmin: -5.707 Xmax: 8.293 Xsize: 14.000
+sib.fastconf.EADock3: Ymin: -4.959 Ymax: 9.041 Ysize: 14.000
+sib.fastconf.EADock3: Zmin: 13.916 Zmax: 27.916 Zsize: 14.000
+sib.fastconf.EADock3: Calculating pocket bias.
+sib.fastconf.EADock3: 3 cavities identified.
+sib.fastconf.EADock3: 14 magic points identified.
+sib.fastconf.EADock3: removing grid point #1
+sib.fastconf.EADock3: removing grid point #3
+sib.fastconf.EADock3: removing grid point #7
+sib.fastconf.EADock3: removing grid point #7
+sib.fastconf.EADock3: removing grid point #7
+sib.fastconf.EADock3: removing grid point #8
+sib.fastconf.EADock3: 8 pocket points were identified in 200 ms
+sib.fastconf.EADock3: Calculating surface bias.
+sib.fastconf.EADock3: 0 surface points were identified in 30 ms
+sib.fastconf.EADock3: 0.0 % done
+sib.fastconf.EADock3: 0.1 % done
+sib.fastconf.EADock3: 0.2 % done
+sib.fastconf.EADock3: 0.3 % done
+sib.fastconf.EADock3: 0.4 % done
+sib.fastconf.EADock3: 0.5 % done
+sib.fastconf.EADock3: 0.6 % done
+sib.fastconf.EADock3: 0.7 % done
+sib.fastconf.EADock3: 0.8 % done
+sib.fastconf.EADock3: 0.9 % done
+sib.fastconf.EADock3: 1.0 % done
+sib.fastconf.EADock3: 1.1 % done
+sib.fastconf.EADock3: 1.2 % done
+sib.fastconf.EADock3: 1.3 % done
+sib.fastconf.EADock3: 1.4 % done
+sib.fastconf.EADock3: 1.5 % done
+sib.fastconf.EADock3: 1.6 % done
+sib.fastconf.EADock3: 1.7 % done
+sib.fastconf.EADock3: 1.8 % done
+sib.fastconf.EADock3: 1.9 % done
+sib.fastconf.EADock3: 2.0 % done
+sib.fastconf.EADock3: 2.1 % done
+sib.fastconf.EADock3: 2.2 % done
+sib.fastconf.EADock3: 2.3 % done
+sib.fastconf.EADock3: 2.4 % done
+sib.fastconf.EADock3: 2.5 % done
+sib.fastconf.EADock3: 2.6 % done
+sib.fastconf.EADock3: 2.7 % done
+sib.fastconf.EADock3: 2.8 % done
+sib.fastconf.EADock3: 2.9 % done
+sib.fastconf.EADock3: 3.0 % done
+sib.fastconf.EADock3: 3.1 % done
+sib.fastconf.EADock3: 3.2 % done
+sib.fastconf.EADock3: 3.3 % done
+sib.fastconf.EADock3: 3.4 % done
+sib.fastconf.EADock3: 3.5 % done
+sib.fastconf.EADock3: 3.6 % done
+sib.fastconf.EADock3: 3.7 % done
+sib.fastconf.EADock3: 3.8 % done
+sib.fastconf.EADock3: 3.9 % done
+sib.fastconf.EADock3: 4.0 % done
+sib.fastconf.EADock3: 4.1 % done
+sib.fastconf.EADock3: 4.2 % done
+sib.fastconf.EADock3: 4.3 % done
+sib.fastconf.EADock3: 4.4 % done
+sib.fastconf.EADock3: 4.5 % done
+sib.fastconf.EADock3: 4.6 % done
+sib.fastconf.EADock3: 4.7 % done
+sib.fastconf.EADock3: 4.8 % done
+sib.fastconf.EADock3: 4.9 % done
+sib.fastconf.EADock3: 5.0 % done
+sib.fastconf.EADock3: 5.1 % done
+sib.fastconf.EADock3: 5.2 % done
+sib.fastconf.EADock3: 5.3 % done
+sib.fastconf.EADock3: 5.4 % done
+sib.fastconf.EADock3: 5.5 % done
+sib.fastconf.EADock3: 5.6 % done
+sib.fastconf.EADock3: 5.7 % done
+sib.fastconf.EADock3: 5.8 % done
+sib.fastconf.EADock3: 5.9 % done
+sib.fastconf.EADock3: 6.0 % done
+sib.fastconf.EADock3: 6.1 % done
+sib.fastconf.EADock3: 6.2 % done
+sib.fastconf.EADock3: 6.3 % done
+sib.fastconf.EADock3: 6.4 % done
+sib.fastconf.EADock3: 6.5 % done
+sib.fastconf.EADock3: 6.6 % done
+sib.fastconf.EADock3: 6.7 % done
+sib.fastconf.EADock3: 6.8 % done
+sib.fastconf.EADock3: 6.9 % done
+sib.fastconf.EADock3: 7.0 % done
+sib.fastconf.EADock3: 7.1 % done
+sib.fastconf.EADock3: 7.2 % done
+sib.fastconf.EADock3: 7.3 % done
+sib.fastconf.EADock3: 7.4 % done
+sib.fastconf.EADock3: 7.5 % done
+sib.fastconf.EADock3: 7.6 % done
+sib.fastconf.EADock3: 7.7 % done
+sib.fastconf.EADock3: 7.8 % done
+sib.fastconf.EADock3: 7.9 % done
+sib.fastconf.EADock3: 8.0 % done
+sib.fastconf.EADock3: 8.1 % done
+sib.fastconf.EADock3: 8.2 % done
+sib.fastconf.EADock3: 8.3 % done
+sib.fastconf.EADock3: 8.4 % done
+sib.fastconf.EADock3: 8.5 % done
+sib.fastconf.EADock3: 8.6 % done
+sib.fastconf.EADock3: 8.7 % done
+sib.fastconf.EADock3: 8.8 % done
+sib.fastconf.EADock3: 8.9 % done
+sib.fastconf.EADock3: 9.0 % done
+sib.fastconf.EADock3: 9.1 % done
+sib.fastconf.EADock3: 9.2 % done
+sib.fastconf.EADock3: 9.3 % done
+sib.fastconf.EADock3: 9.4 % done
+sib.fastconf.EADock3: 9.5 % done
+sib.fastconf.EADock3: 9.6 % done
+sib.fastconf.EADock3: 9.7 % done
+sib.fastconf.EADock3: 9.8 % done
+sib.fastconf.EADock3: 9.9 % done
+sib.fastconf.EADock3: 10.0 % done
+sib.fastconf.EADock3: 10.1 % done
+sib.fastconf.EADock3: 10.2 % done
+sib.fastconf.EADock3: 10.3 % done
+sib.fastconf.EADock3: 10.4 % done
+sib.fastconf.EADock3: 10.5 % done
+sib.fastconf.EADock3: 10.6 % done
+sib.fastconf.EADock3: 10.7 % done
+sib.fastconf.EADock3: 10.8 % done
+sib.fastconf.EADock3: 10.9 % done
+sib.fastconf.EADock3: 11.0 % done
+sib.fastconf.EADock3: 11.1 % done
+sib.fastconf.EADock3: 11.2 % done
+sib.fastconf.EADock3: 11.3 % done
+sib.fastconf.EADock3: 11.4 % done
+sib.fastconf.EADock3: 11.5 % done
+sib.fastconf.EADock3: 11.6 % done
+sib.fastconf.EADock3: 11.7 % done
+sib.fastconf.EADock3: 11.8 % done
+sib.fastconf.EADock3: 11.9 % done
+sib.fastconf.EADock3: 12.0 % done
+sib.fastconf.EADock3: 12.1 % done
+sib.fastconf.EADock3: 12.2 % done
+sib.fastconf.EADock3: 12.3 % done
+sib.fastconf.EADock3: 12.4 % done
+sib.fastconf.EADock3: 12.5 % done
+sib.fastconf.EADock3: 12.6 % done
+sib.fastconf.EADock3: 12.7 % done
+sib.fastconf.EADock3: 12.8 % done
+sib.fastconf.EADock3: 12.9 % done
+sib.fastconf.EADock3: 13.0 % done
+sib.fastconf.EADock3: 13.1 % done
+sib.fastconf.EADock3: 13.2 % done
+sib.fastconf.EADock3: 13.3 % done
+sib.fastconf.EADock3: 13.4 % done
+sib.fastconf.EADock3: 13.5 % done
+sib.fastconf.EADock3: 13.6 % done
+sib.fastconf.EADock3: 13.7 % done
+sib.fastconf.EADock3: 13.8 % done
+sib.fastconf.EADock3: 13.9 % done
+sib.fastconf.EADock3: 14.0 % done
+sib.fastconf.EADock3: 14.1 % done
+sib.fastconf.EADock3: 14.2 % done
+sib.fastconf.EADock3: 14.3 % done
+sib.fastconf.EADock3: 14.4 % done
+sib.fastconf.EADock3: 14.5 % done
+sib.fastconf.EADock3: 14.6 % done
+sib.fastconf.EADock3: 14.7 % done
+sib.fastconf.EADock3: 14.8 % done
+sib.fastconf.EADock3: 14.9 % done
+sib.fastconf.EADock3: 15.0 % done
+sib.fastconf.EADock3: 15.1 % done
+sib.fastconf.EADock3: 15.2 % done
+sib.fastconf.EADock3: 15.3 % done
+sib.fastconf.EADock3: 15.4 % done
+sib.fastconf.EADock3: 15.5 % done
+sib.fastconf.EADock3: 15.6 % done
+sib.fastconf.EADock3: 15.7 % done
+sib.fastconf.EADock3: 15.8 % done
+sib.fastconf.EADock3: 15.9 % done
+sib.fastconf.EADock3: 16.0 % done
+sib.fastconf.EADock3: 16.1 % done
+sib.fastconf.EADock3: 16.2 % done
+sib.fastconf.EADock3: 16.3 % done
+sib.fastconf.EADock3: 16.4 % done
+sib.fastconf.EADock3: 16.5 % done
+sib.fastconf.EADock3: 16.6 % done
+sib.fastconf.EADock3: 16.7 % done
+sib.fastconf.EADock3: 16.8 % done
+sib.fastconf.EADock3: 16.9 % done
+sib.fastconf.EADock3: 17.0 % done
+sib.fastconf.EADock3: 17.1 % done
+sib.fastconf.EADock3: 17.2 % done
+sib.fastconf.EADock3: 17.3 % done
+sib.fastconf.EADock3: 17.4 % done
+sib.fastconf.EADock3: 17.5 % done
+sib.fastconf.EADock3: 17.6 % done
+sib.fastconf.EADock3: 17.7 % done
+sib.fastconf.EADock3: 17.8 % done
+sib.fastconf.EADock3: 17.9 % done
+sib.fastconf.EADock3: 18.0 % done
+sib.fastconf.EADock3: 18.1 % done
+sib.fastconf.EADock3: 18.2 % done
+sib.fastconf.EADock3: 18.3 % done
+sib.fastconf.EADock3: 18.4 % done
+sib.fastconf.EADock3: 18.5 % done
+sib.fastconf.EADock3: 18.6 % done
+sib.fastconf.EADock3: 18.7 % done
+sib.fastconf.EADock3: 18.8 % done
+sib.fastconf.EADock3: 18.9 % done
+sib.fastconf.EADock3: 19.0 % done
+sib.fastconf.EADock3: 19.1 % done
+sib.fastconf.EADock3: 19.2 % done
+sib.fastconf.EADock3: 19.3 % done
+sib.fastconf.EADock3: 19.4 % done
+sib.fastconf.EADock3: 19.5 % done
+sib.fastconf.EADock3: 19.6 % done
+sib.fastconf.EADock3: 19.7 % done
+sib.fastconf.EADock3: 19.8 % done
+sib.fastconf.EADock3: 19.9 % done
+sib.fastconf.EADock3: 20.0 % done
+sib.fastconf.EADock3: 20.1 % done
+sib.fastconf.EADock3: 20.2 % done
+sib.fastconf.EADock3: 20.3 % done
+sib.fastconf.EADock3: 20.4 % done
+sib.fastconf.EADock3: 20.5 % done
+sib.fastconf.EADock3: 20.6 % done
+sib.fastconf.EADock3: 20.7 % done
+sib.fastconf.EADock3: 20.8 % done
+sib.fastconf.EADock3: 20.9 % done
+sib.fastconf.EADock3: 21.0 % done
+sib.fastconf.EADock3: 21.1 % done
+sib.fastconf.EADock3: 21.2 % done
+sib.fastconf.EADock3: 21.3 % done
+sib.fastconf.EADock3: 21.4 % done
+sib.fastconf.EADock3: 21.5 % done
+sib.fastconf.EADock3: 21.6 % done
+sib.fastconf.EADock3: 21.7 % done
+sib.fastconf.EADock3: 21.8 % done
+sib.fastconf.EADock3: 21.9 % done
+sib.fastconf.EADock3: 22.0 % done
+sib.fastconf.EADock3: 22.1 % done
+sib.fastconf.EADock3: 22.2 % done
+sib.fastconf.EADock3: 22.3 % done
+sib.fastconf.EADock3: 22.4 % done
+sib.fastconf.EADock3: 22.5 % done
+sib.fastconf.EADock3: 22.6 % done
+sib.fastconf.EADock3: 22.7 % done
+sib.fastconf.EADock3: 22.8 % done
+sib.fastconf.EADock3: 22.9 % done
+sib.fastconf.EADock3: 23.0 % done
+sib.fastconf.EADock3: 23.1 % done
+sib.fastconf.EADock3: 23.2 % done
+sib.fastconf.EADock3: 23.3 % done
+sib.fastconf.EADock3: 23.4 % done
+sib.fastconf.EADock3: 23.5 % done
+sib.fastconf.EADock3: 23.6 % done
+sib.fastconf.EADock3: 23.7 % done
+sib.fastconf.EADock3: 23.8 % done
+sib.fastconf.EADock3: 23.9 % done
+sib.fastconf.EADock3: 24.0 % done
+sib.fastconf.EADock3: 24.1 % done
+sib.fastconf.EADock3: 24.2 % done
+sib.fastconf.EADock3: 24.3 % done
+sib.fastconf.EADock3: 24.4 % done
+sib.fastconf.EADock3: 24.5 % done
+sib.fastconf.EADock3: 24.6 % done
+sib.fastconf.EADock3: 24.7 % done
+sib.fastconf.EADock3: 24.8 % done
+sib.fastconf.EADock3: 24.9 % done
+sib.fastconf.EADock3: 25.0 % done
+sib.fastconf.EADock3: 25.1 % done
+sib.fastconf.EADock3: 25.2 % done
+sib.fastconf.EADock3: 25.3 % done
+sib.fastconf.EADock3: 25.4 % done
+sib.fastconf.EADock3: 25.5 % done
+sib.fastconf.EADock3: 25.6 % done
+sib.fastconf.EADock3: 25.7 % done
+sib.fastconf.EADock3: 25.8 % done
+sib.fastconf.EADock3: 25.9 % done
+sib.fastconf.EADock3: 26.0 % done
+sib.fastconf.EADock3: 26.1 % done
+sib.fastconf.EADock3: 26.2 % done
+sib.fastconf.EADock3: 26.3 % done
+sib.fastconf.EADock3: 26.4 % done
+sib.fastconf.EADock3: 26.5 % done
+sib.fastconf.EADock3: 26.6 % done
+sib.fastconf.EADock3: 26.7 % done
+sib.fastconf.EADock3: 26.8 % done
+sib.fastconf.EADock3: 26.9 % done
+sib.fastconf.EADock3: 27.0 % done
+sib.fastconf.EADock3: 27.1 % done
+sib.fastconf.EADock3: 27.2 % done
+sib.fastconf.EADock3: 27.3 % done
+sib.fastconf.EADock3: 27.4 % done
+sib.fastconf.EADock3: 27.5 % done
+sib.fastconf.EADock3: 27.6 % done
+sib.fastconf.EADock3: 27.7 % done
+sib.fastconf.EADock3: 27.8 % done
+sib.fastconf.EADock3: 27.9 % done
+sib.fastconf.EADock3: 28.0 % done
+sib.fastconf.EADock3: 28.1 % done
+sib.fastconf.EADock3: 28.2 % done
+sib.fastconf.EADock3: 28.3 % done
+sib.fastconf.EADock3: 28.4 % done
+sib.fastconf.EADock3: 28.5 % done
+sib.fastconf.EADock3: 28.6 % done
+sib.fastconf.EADock3: 28.7 % done
+sib.fastconf.EADock3: 28.8 % done
+sib.fastconf.EADock3: 28.9 % done
+sib.fastconf.EADock3: 29.0 % done
+sib.fastconf.EADock3: 29.1 % done
+sib.fastconf.EADock3: 29.2 % done
+sib.fastconf.EADock3: 29.3 % done
+sib.fastconf.EADock3: 29.4 % done
+sib.fastconf.EADock3: 29.5 % done
+sib.fastconf.EADock3: 29.6 % done
+sib.fastconf.EADock3: 29.7 % done
+sib.fastconf.EADock3: 29.8 % done
+sib.fastconf.EADock3: 29.9 % done
+sib.fastconf.EADock3: 30.0 % done
+sib.fastconf.EADock3: 30.1 % done
+sib.fastconf.EADock3: 30.2 % done
+sib.fastconf.EADock3: 30.3 % done
+sib.fastconf.EADock3: 30.4 % done
+sib.fastconf.EADock3: 30.5 % done
+sib.fastconf.EADock3: 30.6 % done
+sib.fastconf.EADock3: 30.7 % done
+sib.fastconf.EADock3: 30.8 % done
+sib.fastconf.EADock3: 30.9 % done
+sib.fastconf.EADock3: 31.0 % done
+sib.fastconf.EADock3: 31.1 % done
+sib.fastconf.EADock3: 31.2 % done
+sib.fastconf.EADock3: 31.3 % done
+sib.fastconf.EADock3: 31.4 % done
+sib.fastconf.EADock3: 31.5 % done
+sib.fastconf.EADock3: 31.6 % done
+sib.fastconf.EADock3: 31.7 % done
+sib.fastconf.EADock3: 31.8 % done
+sib.fastconf.EADock3: 31.9 % done
+sib.fastconf.EADock3: 32.0 % done
+sib.fastconf.EADock3: 32.1 % done
+sib.fastconf.EADock3: 32.2 % done
+sib.fastconf.EADock3: 32.3 % done
+sib.fastconf.EADock3: 32.4 % done
+sib.fastconf.EADock3: 32.5 % done
+sib.fastconf.EADock3: 32.6 % done
+sib.fastconf.EADock3: 32.7 % done
+sib.fastconf.EADock3: 32.8 % done
+sib.fastconf.EADock3: 32.9 % done
+sib.fastconf.EADock3: 33.0 % done
+sib.fastconf.EADock3: 33.1 % done
+sib.fastconf.EADock3: 33.2 % done
+sib.fastconf.EADock3: 33.3 % done
+sib.fastconf.EADock3: 33.4 % done
+sib.fastconf.EADock3: 33.5 % done
+sib.fastconf.EADock3: 33.6 % done
+sib.fastconf.EADock3: 33.7 % done
+sib.fastconf.EADock3: 33.8 % done
+sib.fastconf.EADock3: 33.9 % done
+sib.fastconf.EADock3: 34.0 % done
+sib.fastconf.EADock3: 34.1 % done
+sib.fastconf.EADock3: 34.2 % done
+sib.fastconf.EADock3: 34.3 % done
+sib.fastconf.EADock3: 34.4 % done
+sib.fastconf.EADock3: 34.5 % done
+sib.fastconf.EADock3: 34.6 % done
+sib.fastconf.EADock3: 34.7 % done
+sib.fastconf.EADock3: 34.8 % done
+sib.fastconf.EADock3: 34.9 % done
+sib.fastconf.EADock3: 35.0 % done
+sib.fastconf.EADock3: 35.1 % done
+sib.fastconf.EADock3: 35.2 % done
+sib.fastconf.EADock3: 35.3 % done
+sib.fastconf.EADock3: 35.4 % done
+sib.fastconf.EADock3: 35.5 % done
+sib.fastconf.EADock3: 35.6 % done
+sib.fastconf.EADock3: 35.7 % done
+sib.fastconf.EADock3: 35.8 % done
+sib.fastconf.EADock3: 35.9 % done
+sib.fastconf.EADock3: 36.0 % done
+sib.fastconf.EADock3: 36.1 % done
+sib.fastconf.EADock3: 36.2 % done
+sib.fastconf.EADock3: 36.3 % done
+sib.fastconf.EADock3: 36.4 % done
+sib.fastconf.EADock3: 36.5 % done
+sib.fastconf.EADock3: 36.6 % done
+sib.fastconf.EADock3: 36.7 % done
+sib.fastconf.EADock3: 36.8 % done
+sib.fastconf.EADock3: 36.9 % done
+sib.fastconf.EADock3: 37.0 % done
+sib.fastconf.EADock3: 37.1 % done
+sib.fastconf.EADock3: 37.2 % done
+sib.fastconf.EADock3: 37.3 % done
+sib.fastconf.EADock3: 37.4 % done
+sib.fastconf.EADock3: 37.5 % done
+sib.fastconf.EADock3: 37.6 % done
+sib.fastconf.EADock3: 37.7 % done
+sib.fastconf.EADock3: 37.8 % done
+sib.fastconf.EADock3: 37.9 % done
+sib.fastconf.EADock3: 38.0 % done
+sib.fastconf.EADock3: 38.1 % done
+sib.fastconf.EADock3: 38.2 % done
+sib.fastconf.EADock3: 38.3 % done
+sib.fastconf.EADock3: 38.4 % done
+sib.fastconf.EADock3: 38.5 % done
+sib.fastconf.EADock3: 38.6 % done
+sib.fastconf.EADock3: 38.7 % done
+sib.fastconf.EADock3: 38.8 % done
+sib.fastconf.EADock3: 38.9 % done
+sib.fastconf.EADock3: 39.0 % done
+sib.fastconf.EADock3: 39.1 % done
+sib.fastconf.EADock3: 39.2 % done
+sib.fastconf.EADock3: 39.3 % done
+sib.fastconf.EADock3: 39.4 % done
+sib.fastconf.EADock3: 39.5 % done
+sib.fastconf.EADock3: 39.6 % done
+sib.fastconf.EADock3: 39.7 % done
+sib.fastconf.EADock3: 39.8 % done
+sib.fastconf.EADock3: 39.9 % done
+sib.fastconf.EADock3: 40.0 % done
+sib.fastconf.EADock3: 40.1 % done
+sib.fastconf.EADock3: 40.2 % done
+sib.fastconf.EADock3: 40.3 % done
+sib.fastconf.EADock3: 40.4 % done
+sib.fastconf.EADock3: 40.5 % done
+sib.fastconf.EADock3: 40.6 % done
+sib.fastconf.EADock3: 40.7 % done
+sib.fastconf.EADock3: 40.8 % done
+sib.fastconf.EADock3: 40.9 % done
+sib.fastconf.EADock3: 41.0 % done
+sib.fastconf.EADock3: 41.1 % done
+sib.fastconf.EADock3: 41.2 % done
+sib.fastconf.EADock3: 41.3 % done
+sib.fastconf.EADock3: 41.4 % done
+sib.fastconf.EADock3: 41.5 % done
+sib.fastconf.EADock3: 41.6 % done
+sib.fastconf.EADock3: 41.7 % done
+sib.fastconf.EADock3: 41.8 % done
+sib.fastconf.EADock3: 41.9 % done
+sib.fastconf.EADock3: 42.0 % done
+sib.fastconf.EADock3: 42.1 % done
+sib.fastconf.EADock3: 42.2 % done
+sib.fastconf.EADock3: 42.3 % done
+sib.fastconf.EADock3: 42.4 % done
+sib.fastconf.EADock3: 42.5 % done
+sib.fastconf.EADock3: 42.6 % done
+sib.fastconf.EADock3: 42.7 % done
+sib.fastconf.EADock3: 42.8 % done
+sib.fastconf.EADock3: 42.9 % done
+sib.fastconf.EADock3: 43.0 % done
+sib.fastconf.EADock3: 43.1 % done
+sib.fastconf.EADock3: 43.2 % done
+sib.fastconf.EADock3: 43.3 % done
+sib.fastconf.EADock3: 43.4 % done
+sib.fastconf.EADock3: 43.5 % done
+sib.fastconf.EADock3: 43.6 % done
+sib.fastconf.EADock3: 43.7 % done
+sib.fastconf.EADock3: 43.8 % done
+sib.fastconf.EADock3: 43.9 % done
+sib.fastconf.EADock3: 44.0 % done
+sib.fastconf.EADock3: 44.1 % done
+sib.fastconf.EADock3: 44.2 % done
+sib.fastconf.EADock3: 44.3 % done
+sib.fastconf.EADock3: 44.4 % done
+sib.fastconf.EADock3: 44.5 % done
+sib.fastconf.EADock3: 44.6 % done
+sib.fastconf.EADock3: 44.7 % done
+sib.fastconf.EADock3: 44.8 % done
+sib.fastconf.EADock3: 44.9 % done
+sib.fastconf.EADock3: 45.0 % done
+sib.fastconf.EADock3: 45.1 % done
+sib.fastconf.EADock3: 45.2 % done
+sib.fastconf.EADock3: 45.3 % done
+sib.fastconf.EADock3: 45.4 % done
+sib.fastconf.EADock3: 45.5 % done
+sib.fastconf.EADock3: 45.6 % done
+sib.fastconf.EADock3: 45.7 % done
+sib.fastconf.EADock3: 45.8 % done
+sib.fastconf.EADock3: 45.9 % done
+sib.fastconf.EADock3: 46.0 % done
+sib.fastconf.EADock3: 46.1 % done
+sib.fastconf.EADock3: 46.2 % done
+sib.fastconf.EADock3: 46.3 % done
+sib.fastconf.EADock3: 46.4 % done
+sib.fastconf.EADock3: 46.5 % done
+sib.fastconf.EADock3: 46.6 % done
+sib.fastconf.EADock3: 46.7 % done
+sib.fastconf.EADock3: 46.8 % done
+sib.fastconf.EADock3: 46.9 % done
+sib.fastconf.EADock3: 47.0 % done
+sib.fastconf.EADock3: 47.1 % done
+sib.fastconf.EADock3: 47.2 % done
+sib.fastconf.EADock3: 47.3 % done
+sib.fastconf.EADock3: 47.4 % done
+sib.fastconf.EADock3: 47.5 % done
+sib.fastconf.EADock3: 47.6 % done
+sib.fastconf.EADock3: 47.7 % done
+sib.fastconf.EADock3: 47.8 % done
+sib.fastconf.EADock3: 47.9 % done
+sib.fastconf.EADock3: 48.0 % done
+sib.fastconf.EADock3: 48.1 % done
+sib.fastconf.EADock3: 48.2 % done
+sib.fastconf.EADock3: 48.3 % done
+sib.fastconf.EADock3: 48.4 % done
+sib.fastconf.EADock3: 48.5 % done
+sib.fastconf.EADock3: 48.6 % done
+sib.fastconf.EADock3: 48.7 % done
+sib.fastconf.EADock3: 48.8 % done
+sib.fastconf.EADock3: 48.9 % done
+sib.fastconf.EADock3: 49.0 % done
+sib.fastconf.EADock3: 49.1 % done
+sib.fastconf.EADock3: 49.2 % done
+sib.fastconf.EADock3: 49.3 % done
+sib.fastconf.EADock3: 49.4 % done
+sib.fastconf.EADock3: 49.5 % done
+sib.fastconf.EADock3: 49.6 % done
+sib.fastconf.EADock3: 49.7 % done
+sib.fastconf.EADock3: 49.8 % done
+sib.fastconf.EADock3: 49.9 % done
+sib.fastconf.EADock3: 50.0 % done
+sib.fastconf.EADock3: 50.1 % done
+sib.fastconf.EADock3: 50.2 % done
+sib.fastconf.EADock3: 50.3 % done
+sib.fastconf.EADock3: 50.4 % done
+sib.fastconf.EADock3: 50.5 % done
+sib.fastconf.EADock3: 50.6 % done
+sib.fastconf.EADock3: 50.7 % done
+sib.fastconf.EADock3: 50.8 % done
+sib.fastconf.EADock3: 50.9 % done
+sib.fastconf.EADock3: 51.0 % done
+sib.fastconf.EADock3: 51.1 % done
+sib.fastconf.EADock3: 51.2 % done
+sib.fastconf.EADock3: 51.3 % done
+sib.fastconf.EADock3: 51.4 % done
+sib.fastconf.EADock3: 51.5 % done
+sib.fastconf.EADock3: 51.6 % done
+sib.fastconf.EADock3: 51.7 % done
+sib.fastconf.EADock3: 51.8 % done
+sib.fastconf.EADock3: 51.9 % done
+sib.fastconf.EADock3: 52.0 % done
+sib.fastconf.EADock3: 52.1 % done
+sib.fastconf.EADock3: 52.2 % done
+sib.fastconf.EADock3: 52.3 % done
+sib.fastconf.EADock3: 52.4 % done
+sib.fastconf.EADock3: 52.5 % done
+sib.fastconf.EADock3: 52.6 % done
+sib.fastconf.EADock3: 52.7 % done
+sib.fastconf.EADock3: 52.8 % done
+sib.fastconf.EADock3: 52.9 % done
+sib.fastconf.EADock3: 53.0 % done
+sib.fastconf.EADock3: 53.1 % done
+sib.fastconf.EADock3: 53.2 % done
+sib.fastconf.EADock3: 53.3 % done
+sib.fastconf.EADock3: 53.4 % done
+sib.fastconf.EADock3: 53.5 % done
+sib.fastconf.EADock3: 53.6 % done
+sib.fastconf.EADock3: 53.7 % done
+sib.fastconf.EADock3: 53.8 % done
+sib.fastconf.EADock3: 53.9 % done
+sib.fastconf.EADock3: 54.0 % done
+sib.fastconf.EADock3: 54.1 % done
+sib.fastconf.EADock3: 54.2 % done
+sib.fastconf.EADock3: 54.3 % done
+sib.fastconf.EADock3: 54.4 % done
+sib.fastconf.EADock3: 54.5 % done
+sib.fastconf.EADock3: 54.6 % done
+sib.fastconf.EADock3: 54.7 % done
+sib.fastconf.EADock3: 54.8 % done
+sib.fastconf.EADock3: 54.9 % done
+sib.fastconf.EADock3: 55.0 % done
+sib.fastconf.EADock3: 55.1 % done
+sib.fastconf.EADock3: 55.2 % done
+sib.fastconf.EADock3: 55.3 % done
+sib.fastconf.EADock3: 55.4 % done
+sib.fastconf.EADock3: 55.5 % done
+sib.fastconf.EADock3: 55.6 % done
+sib.fastconf.EADock3: 55.7 % done
+sib.fastconf.EADock3: 55.8 % done
+sib.fastconf.EADock3: 55.9 % done
+sib.fastconf.EADock3: 56.0 % done
+sib.fastconf.EADock3: 56.1 % done
+sib.fastconf.EADock3: 56.2 % done
+sib.fastconf.EADock3: 56.3 % done
+sib.fastconf.EADock3: 56.4 % done
+sib.fastconf.EADock3: 56.5 % done
+sib.fastconf.EADock3: 56.6 % done
+sib.fastconf.EADock3: 56.7 % done
+sib.fastconf.EADock3: 56.8 % done
+sib.fastconf.EADock3: 56.9 % done
+sib.fastconf.EADock3: 57.0 % done
+sib.fastconf.EADock3: 57.1 % done
+sib.fastconf.EADock3: 57.2 % done
+sib.fastconf.EADock3: 57.3 % done
+sib.fastconf.EADock3: 57.4 % done
+sib.fastconf.EADock3: 57.5 % done
+sib.fastconf.EADock3: 57.6 % done
+sib.fastconf.EADock3: 57.7 % done
+sib.fastconf.EADock3: 57.8 % done
+sib.fastconf.EADock3: 57.9 % done
+sib.fastconf.EADock3: 58.0 % done
+sib.fastconf.EADock3: 58.1 % done
+sib.fastconf.EADock3: 58.2 % done
+sib.fastconf.EADock3: 58.3 % done
+sib.fastconf.EADock3: 58.4 % done
+sib.fastconf.EADock3: 58.5 % done
+sib.fastconf.EADock3: 58.6 % done
+sib.fastconf.EADock3: 58.7 % done
+sib.fastconf.EADock3: 58.8 % done
+sib.fastconf.EADock3: 58.9 % done
+sib.fastconf.EADock3: 59.0 % done
+sib.fastconf.EADock3: 59.1 % done
+sib.fastconf.EADock3: 59.2 % done
+sib.fastconf.EADock3: 59.3 % done
+sib.fastconf.EADock3: 59.4 % done
+sib.fastconf.EADock3: 59.5 % done
+sib.fastconf.EADock3: 59.6 % done
+sib.fastconf.EADock3: 59.7 % done
+sib.fastconf.EADock3: 59.8 % done
+sib.fastconf.EADock3: 59.9 % done
+sib.fastconf.EADock3: 60.0 % done
+sib.fastconf.EADock3: 60.1 % done
+sib.fastconf.EADock3: 60.2 % done
+sib.fastconf.EADock3: 60.3 % done
+sib.fastconf.EADock3: 60.4 % done
+sib.fastconf.EADock3: 60.5 % done
+sib.fastconf.EADock3: 60.6 % done
+sib.fastconf.EADock3: 60.7 % done
+sib.fastconf.EADock3: 60.8 % done
+sib.fastconf.EADock3: 60.9 % done
+sib.fastconf.EADock3: 61.0 % done
+sib.fastconf.EADock3: 61.1 % done
+sib.fastconf.EADock3: 61.2 % done
+sib.fastconf.EADock3: 61.3 % done
+sib.fastconf.EADock3: 61.4 % done
+sib.fastconf.EADock3: 61.5 % done
+sib.fastconf.EADock3: 61.6 % done
+sib.fastconf.EADock3: 61.7 % done
+sib.fastconf.EADock3: 61.8 % done
+sib.fastconf.EADock3: 61.9 % done
+sib.fastconf.EADock3: 62.0 % done
+sib.fastconf.EADock3: 62.1 % done
+sib.fastconf.EADock3: 62.2 % done
+sib.fastconf.EADock3: 62.3 % done
+sib.fastconf.EADock3: 62.4 % done
+sib.fastconf.EADock3: 62.5 % done
+sib.fastconf.EADock3: 62.6 % done
+sib.fastconf.EADock3: 62.7 % done
+sib.fastconf.EADock3: 62.8 % done
+sib.fastconf.EADock3: 62.9 % done
+sib.fastconf.EADock3: 63.0 % done
+sib.fastconf.EADock3: 63.1 % done
+sib.fastconf.EADock3: 63.2 % done
+sib.fastconf.EADock3: 63.3 % done
+sib.fastconf.EADock3: 63.4 % done
+sib.fastconf.EADock3: 63.5 % done
+sib.fastconf.EADock3: 63.6 % done
+sib.fastconf.EADock3: 63.7 % done
+sib.fastconf.EADock3: 63.8 % done
+sib.fastconf.EADock3: 63.9 % done
+sib.fastconf.EADock3: 64.0 % done
+sib.fastconf.EADock3: 64.1 % done
+sib.fastconf.EADock3: 64.2 % done
+sib.fastconf.EADock3: 64.3 % done
+sib.fastconf.EADock3: 64.4 % done
+sib.fastconf.EADock3: 64.5 % done
+sib.fastconf.EADock3: 64.6 % done
+sib.fastconf.EADock3: 64.7 % done
+sib.fastconf.EADock3: 64.8 % done
+sib.fastconf.EADock3: 64.9 % done
+sib.fastconf.EADock3: 65.0 % done
+sib.fastconf.EADock3: 65.1 % done
+sib.fastconf.EADock3: 65.2 % done
+sib.fastconf.EADock3: 65.3 % done
+sib.fastconf.EADock3: 65.4 % done
+sib.fastconf.EADock3: 65.5 % done
+sib.fastconf.EADock3: 65.6 % done
+sib.fastconf.EADock3: 65.7 % done
+sib.fastconf.EADock3: 65.8 % done
+sib.fastconf.EADock3: 65.9 % done
+sib.fastconf.EADock3: 66.0 % done
+sib.fastconf.EADock3: 66.1 % done
+sib.fastconf.EADock3: 66.2 % done
+sib.fastconf.EADock3: 66.3 % done
+sib.fastconf.EADock3: 66.4 % done
+sib.fastconf.EADock3: 66.5 % done
+sib.fastconf.EADock3: 66.6 % done
+sib.fastconf.EADock3: 66.7 % done
+sib.fastconf.EADock3: 66.8 % done
+sib.fastconf.EADock3: 66.9 % done
+sib.fastconf.EADock3: 67.0 % done
+sib.fastconf.EADock3: 67.1 % done
+sib.fastconf.EADock3: 67.2 % done
+sib.fastconf.EADock3: 67.3 % done
+sib.fastconf.EADock3: 67.4 % done
+sib.fastconf.EADock3: 67.5 % done
+sib.fastconf.EADock3: 67.6 % done
+sib.fastconf.EADock3: 67.7 % done
+sib.fastconf.EADock3: 67.8 % done
+sib.fastconf.EADock3: 67.9 % done
+sib.fastconf.EADock3: 68.0 % done
+sib.fastconf.EADock3: 68.1 % done
+sib.fastconf.EADock3: 68.2 % done
+sib.fastconf.EADock3: 68.3 % done
+sib.fastconf.EADock3: 68.4 % done
+sib.fastconf.EADock3: 68.5 % done
+sib.fastconf.EADock3: 68.6 % done
+sib.fastconf.EADock3: 68.7 % done
+sib.fastconf.EADock3: 68.8 % done
+sib.fastconf.EADock3: 68.9 % done
+sib.fastconf.EADock3: 69.0 % done
+sib.fastconf.EADock3: 69.1 % done
+sib.fastconf.EADock3: 69.2 % done
+sib.fastconf.EADock3: 69.3 % done
+sib.fastconf.EADock3: 69.4 % done
+sib.fastconf.EADock3: 69.5 % done
+sib.fastconf.EADock3: 69.6 % done
+sib.fastconf.EADock3: 69.7 % done
+sib.fastconf.EADock3: 69.8 % done
+sib.fastconf.EADock3: 69.9 % done
+sib.fastconf.EADock3: 70.0 % done
+sib.fastconf.EADock3: 70.1 % done
+sib.fastconf.EADock3: 70.2 % done
+sib.fastconf.EADock3: 70.3 % done
+sib.fastconf.EADock3: 70.4 % done
+sib.fastconf.EADock3: 70.5 % done
+sib.fastconf.EADock3: 70.6 % done
+sib.fastconf.EADock3: 70.7 % done
+sib.fastconf.EADock3: 70.8 % done
+sib.fastconf.EADock3: 70.9 % done
+sib.fastconf.EADock3: 71.0 % done
+sib.fastconf.EADock3: 71.1 % done
+sib.fastconf.EADock3: 71.2 % done
+sib.fastconf.EADock3: 71.3 % done
+sib.fastconf.EADock3: 71.4 % done
+sib.fastconf.EADock3: 71.5 % done
+sib.fastconf.EADock3: 71.6 % done
+sib.fastconf.EADock3: 71.7 % done
+sib.fastconf.EADock3: 71.8 % done
+sib.fastconf.EADock3: 71.9 % done
+sib.fastconf.EADock3: 72.0 % done
+sib.fastconf.EADock3: 72.1 % done
+sib.fastconf.EADock3: 72.2 % done
+sib.fastconf.EADock3: 72.3 % done
+sib.fastconf.EADock3: 72.4 % done
+sib.fastconf.EADock3: 72.5 % done
+sib.fastconf.EADock3: 72.6 % done
+sib.fastconf.EADock3: 72.7 % done
+sib.fastconf.EADock3: 72.8 % done
+sib.fastconf.EADock3: 72.9 % done
+sib.fastconf.EADock3: 73.0 % done
+sib.fastconf.EADock3: 73.1 % done
+sib.fastconf.EADock3: 73.2 % done
+sib.fastconf.EADock3: 73.3 % done
+sib.fastconf.EADock3: 73.4 % done
+sib.fastconf.EADock3: 73.5 % done
+sib.fastconf.EADock3: 73.6 % done
+sib.fastconf.EADock3: 73.7 % done
+sib.fastconf.EADock3: 73.8 % done
+sib.fastconf.EADock3: 73.9 % done
+sib.fastconf.EADock3: 74.0 % done
+sib.fastconf.EADock3: 74.1 % done
+sib.fastconf.EADock3: 74.2 % done
+sib.fastconf.EADock3: 74.3 % done
+sib.fastconf.EADock3: 74.4 % done
+sib.fastconf.EADock3: 74.5 % done
+sib.fastconf.EADock3: 74.6 % done
+sib.fastconf.EADock3: 74.7 % done
+sib.fastconf.EADock3: 74.8 % done
+sib.fastconf.EADock3: 74.9 % done
+sib.fastconf.EADock3: 75.0 % done
+sib.fastconf.EADock3: 75.1 % done
+sib.fastconf.EADock3: 75.2 % done
+sib.fastconf.EADock3: 75.3 % done
+sib.fastconf.EADock3: 75.4 % done
+sib.fastconf.EADock3: 75.5 % done
+sib.fastconf.EADock3: 75.6 % done
+sib.fastconf.EADock3: 75.7 % done
+sib.fastconf.EADock3: 75.8 % done
+sib.fastconf.EADock3: 75.9 % done
+sib.fastconf.EADock3: 76.0 % done
+sib.fastconf.EADock3: 76.1 % done
+sib.fastconf.EADock3: 76.2 % done
+sib.fastconf.EADock3: 76.3 % done
+sib.fastconf.EADock3: 76.4 % done
+sib.fastconf.EADock3: 76.5 % done
+sib.fastconf.EADock3: 76.6 % done
+sib.fastconf.EADock3: 76.7 % done
+sib.fastconf.EADock3: 76.8 % done
+sib.fastconf.EADock3: 76.9 % done
+sib.fastconf.EADock3: 77.0 % done
+sib.fastconf.EADock3: 77.1 % done
+sib.fastconf.EADock3: 77.2 % done
+sib.fastconf.EADock3: 77.3 % done
+sib.fastconf.EADock3: 77.4 % done
+sib.fastconf.EADock3: 77.5 % done
+sib.fastconf.EADock3: 77.6 % done
+sib.fastconf.EADock3: 77.7 % done
+sib.fastconf.EADock3: 77.8 % done
+sib.fastconf.EADock3: 77.9 % done
+sib.fastconf.EADock3: 78.0 % done
+sib.fastconf.EADock3: 78.1 % done
+sib.fastconf.EADock3: 78.2 % done
+sib.fastconf.EADock3: 78.3 % done
+sib.fastconf.EADock3: 78.4 % done
+sib.fastconf.EADock3: 78.5 % done
+sib.fastconf.EADock3: 78.6 % done
+sib.fastconf.EADock3: 78.7 % done
+sib.fastconf.EADock3: 78.8 % done
+sib.fastconf.EADock3: 78.9 % done
+sib.fastconf.EADock3: 79.0 % done
+sib.fastconf.EADock3: 79.1 % done
+sib.fastconf.EADock3: 79.2 % done
+sib.fastconf.EADock3: 79.3 % done
+sib.fastconf.EADock3: 79.4 % done
+sib.fastconf.EADock3: 79.5 % done
+sib.fastconf.EADock3: 79.6 % done
+sib.fastconf.EADock3: 79.7 % done
+sib.fastconf.EADock3: 79.8 % done
+sib.fastconf.EADock3: 79.9 % done
+sib.fastconf.EADock3: 80.0 % done
+sib.fastconf.EADock3: 80.1 % done
+sib.fastconf.EADock3: 80.2 % done
+sib.fastconf.EADock3: 80.3 % done
+sib.fastconf.EADock3: 80.4 % done
+sib.fastconf.EADock3: 80.5 % done
+sib.fastconf.EADock3: 80.6 % done
+sib.fastconf.EADock3: 80.7 % done
+sib.fastconf.EADock3: 80.8 % done
+sib.fastconf.EADock3: 80.9 % done
+sib.fastconf.EADock3: 81.0 % done
+sib.fastconf.EADock3: 81.1 % done
+sib.fastconf.EADock3: 81.2 % done
+sib.fastconf.EADock3: 81.3 % done
+sib.fastconf.EADock3: 81.4 % done
+sib.fastconf.EADock3: 81.5 % done
+sib.fastconf.EADock3: 81.6 % done
+sib.fastconf.EADock3: 81.7 % done
+sib.fastconf.EADock3: 81.8 % done
+sib.fastconf.EADock3: 81.9 % done
+sib.fastconf.EADock3: 82.0 % done
+sib.fastconf.EADock3: 82.1 % done
+sib.fastconf.EADock3: 82.2 % done
+sib.fastconf.EADock3: 82.3 % done
+sib.fastconf.EADock3: 82.4 % done
+sib.fastconf.EADock3: 82.5 % done
+sib.fastconf.EADock3: 82.6 % done
+sib.fastconf.EADock3: 82.7 % done
+sib.fastconf.EADock3: 82.8 % done
+sib.fastconf.EADock3: 82.9 % done
+sib.fastconf.EADock3: 83.0 % done
+sib.fastconf.EADock3: 83.1 % done
+sib.fastconf.EADock3: 83.2 % done
+sib.fastconf.EADock3: 83.3 % done
+sib.fastconf.EADock3: 83.4 % done
+sib.fastconf.EADock3: 83.5 % done
+sib.fastconf.EADock3: 83.6 % done
+sib.fastconf.EADock3: 83.7 % done
+sib.fastconf.EADock3: 83.8 % done
+sib.fastconf.EADock3: 83.9 % done
+sib.fastconf.EADock3: 84.0 % done
+sib.fastconf.EADock3: 84.1 % done
+sib.fastconf.EADock3: 84.2 % done
+sib.fastconf.EADock3: 84.3 % done
+sib.fastconf.EADock3: 84.4 % done
+sib.fastconf.EADock3: 84.5 % done
+sib.fastconf.EADock3: 84.6 % done
+sib.fastconf.EADock3: 84.7 % done
+sib.fastconf.EADock3: 84.8 % done
+sib.fastconf.EADock3: 84.9 % done
+sib.fastconf.EADock3: 85.0 % done
+sib.fastconf.EADock3: 85.1 % done
+sib.fastconf.EADock3: 85.2 % done
+sib.fastconf.EADock3: 85.3 % done
+sib.fastconf.EADock3: 85.4 % done
+sib.fastconf.EADock3: 85.5 % done
+sib.fastconf.EADock3: 85.6 % done
+sib.fastconf.EADock3: 85.7 % done
+sib.fastconf.EADock3: 85.8 % done
+sib.fastconf.EADock3: 85.9 % done
+sib.fastconf.EADock3: 86.0 % done
+sib.fastconf.EADock3: 86.1 % done
+sib.fastconf.EADock3: 86.2 % done
+sib.fastconf.EADock3: 86.3 % done
+sib.fastconf.EADock3: 86.4 % done
+sib.fastconf.EADock3: 86.5 % done
+sib.fastconf.EADock3: 86.6 % done
+sib.fastconf.EADock3: 86.7 % done
+sib.fastconf.EADock3: 86.8 % done
+sib.fastconf.EADock3: 86.9 % done
+sib.fastconf.EADock3: 87.0 % done
+sib.fastconf.EADock3: 87.1 % done
+sib.fastconf.EADock3: 87.2 % done
+sib.fastconf.EADock3: 87.3 % done
+sib.fastconf.EADock3: 87.4 % done
+sib.fastconf.EADock3: 87.5 % done
+sib.fastconf.EADock3: 87.6 % done
+sib.fastconf.EADock3: 87.7 % done
+sib.fastconf.EADock3: 87.8 % done
+sib.fastconf.EADock3: 87.9 % done
+sib.fastconf.EADock3: 88.0 % done
+sib.fastconf.EADock3: 88.1 % done
+sib.fastconf.EADock3: 88.2 % done
+sib.fastconf.EADock3: 88.3 % done
+sib.fastconf.EADock3: 88.4 % done
+sib.fastconf.EADock3: 88.5 % done
+sib.fastconf.EADock3: 88.6 % done
+sib.fastconf.EADock3: 88.7 % done
+sib.fastconf.EADock3: 88.8 % done
+sib.fastconf.EADock3: 88.9 % done
+sib.fastconf.EADock3: 89.0 % done
+sib.fastconf.EADock3: 89.1 % done
+sib.fastconf.EADock3: 89.2 % done
+sib.fastconf.EADock3: 89.3 % done
+sib.fastconf.EADock3: 89.4 % done
+sib.fastconf.EADock3: 89.5 % done
+sib.fastconf.EADock3: 89.6 % done
+sib.fastconf.EADock3: 89.7 % done
+sib.fastconf.EADock3: 89.8 % done
+sib.fastconf.EADock3: 89.9 % done
+sib.fastconf.EADock3: 90.0 % done
+sib.fastconf.EADock3: 90.1 % done
+sib.fastconf.EADock3: 90.2 % done
+sib.fastconf.EADock3: 90.3 % done
+sib.fastconf.EADock3: 90.4 % done
+sib.fastconf.EADock3: 90.5 % done
+sib.fastconf.EADock3: 90.6 % done
+sib.fastconf.EADock3: 90.7 % done
+sib.fastconf.EADock3: 90.8 % done
+sib.fastconf.EADock3: 90.9 % done
+sib.fastconf.EADock3: 91.0 % done
+sib.fastconf.EADock3: 91.1 % done
+sib.fastconf.EADock3: 91.2 % done
+sib.fastconf.EADock3: 91.3 % done
+sib.fastconf.EADock3: 91.4 % done
+sib.fastconf.EADock3: 91.5 % done
+sib.fastconf.EADock3: 91.6 % done
+sib.fastconf.EADock3: 91.7 % done
+sib.fastconf.EADock3: 91.8 % done
+sib.fastconf.EADock3: 91.9 % done
+sib.fastconf.EADock3: 92.0 % done
+sib.fastconf.EADock3: 92.1 % done
+sib.fastconf.EADock3: 92.2 % done
+sib.fastconf.EADock3: 92.3 % done
+sib.fastconf.EADock3: 92.4 % done
+sib.fastconf.EADock3: 92.5 % done
+sib.fastconf.EADock3: 92.6 % done
+sib.fastconf.EADock3: 92.7 % done
+sib.fastconf.EADock3: 92.8 % done
+sib.fastconf.EADock3: 92.9 % done
+sib.fastconf.EADock3: 93.0 % done
+sib.fastconf.EADock3: 93.1 % done
+sib.fastconf.EADock3: 93.2 % done
+sib.fastconf.EADock3: 93.3 % done
+sib.fastconf.EADock3: 93.4 % done
+sib.fastconf.EADock3: 93.5 % done
+sib.fastconf.EADock3: 93.6 % done
+sib.fastconf.EADock3: 93.7 % done
+sib.fastconf.EADock3: 93.8 % done
+sib.fastconf.EADock3: 93.9 % done
+sib.fastconf.EADock3: 94.0 % done
+sib.fastconf.EADock3: 94.1 % done
+sib.fastconf.EADock3: 94.2 % done
+sib.fastconf.EADock3: 94.3 % done
+sib.fastconf.EADock3: 94.4 % done
+sib.fastconf.EADock3: 94.5 % done
+sib.fastconf.EADock3: 94.6 % done
+sib.fastconf.EADock3: 94.7 % done
+sib.fastconf.EADock3: 94.8 % done
+sib.fastconf.EADock3: 94.9 % done
+sib.fastconf.EADock3: 95.0 % done
+sib.fastconf.EADock3: 95.1 % done
+sib.fastconf.EADock3: 95.2 % done
+sib.fastconf.EADock3: 95.3 % done
+sib.fastconf.EADock3: 95.4 % done
+sib.fastconf.EADock3: 95.5 % done
+sib.fastconf.EADock3: 95.6 % done
+sib.fastconf.EADock3: 95.7 % done
+sib.fastconf.EADock3: 95.8 % done
+sib.fastconf.EADock3: 95.9 % done
+sib.fastconf.EADock3: 96.0 % done
+sib.fastconf.EADock3: 96.1 % done
+sib.fastconf.EADock3: 96.2 % done
+sib.fastconf.EADock3: 96.3 % done
+sib.fastconf.EADock3: 96.4 % done
+sib.fastconf.EADock3: 96.5 % done
+sib.fastconf.EADock3: 96.6 % done
+sib.fastconf.EADock3: 96.7 % done
+sib.fastconf.EADock3: 96.8 % done
+sib.fastconf.EADock3: 96.9 % done
+sib.fastconf.EADock3: 97.0 % done
+sib.fastconf.EADock3: 97.1 % done
+sib.fastconf.EADock3: 97.2 % done
+sib.fastconf.EADock3: 97.3 % done
+sib.fastconf.EADock3: 97.4 % done
+sib.fastconf.EADock3: 97.5 % done
+sib.fastconf.EADock3: 97.6 % done
+sib.fastconf.EADock3: 97.7 % done
+sib.fastconf.EADock3: 97.8 % done
+sib.fastconf.EADock3: 97.9 % done
+sib.fastconf.EADock3: 98.0 % done
+sib.fastconf.EADock3: 98.1 % done
+sib.fastconf.EADock3: 98.2 % done
+sib.fastconf.EADock3: 98.3 % done
+sib.fastconf.EADock3: 98.4 % done
+sib.fastconf.EADock3: 98.5 % done
+sib.fastconf.EADock3: 98.6 % done
+sib.fastconf.EADock3: 98.7 % done
+sib.fastconf.EADock3: 98.8 % done
+sib.fastconf.EADock3: 98.9 % done
+sib.fastconf.EADock3: 99.0 % done
+sib.fastconf.EADock3: 99.1 % done
+sib.fastconf.EADock3: 99.2 % done
+sib.fastconf.EADock3: 99.3 % done
+sib.fastconf.EADock3: 99.4 % done
+sib.fastconf.EADock3: 99.5 % done
+sib.fastconf.EADock3: 99.6 % done
+sib.fastconf.EADock3: 99.7 % done
+sib.fastconf.EADock3: 99.8 % done
+sib.fastconf.EADock3: 99.9 % done
+sib.fastconf.EADock3: 100.0 % done
+sib.fastconf.EADock3: The generation of 2985 conformations took 126100 s
+sib.fastconf.EADock3: The DSS engine failed 17182 times to find a suitable BMs within the allowed time limit of 500 ms
+sib.fastconf.EADock3: Minimizing binding mode 0, energy is -2140.9985, rmsd is 21.363138
+sib.fastconf.EADock3: Minimizing binding mode 1, energy is -872.6951, rmsd is 19.30568
+sib.fastconf.EADock3: Minimizing binding mode 2, energy is -746.2761, rmsd is 3.6669981
+sib.fastconf.EADock3: Minimizing binding mode 3, energy is -504.14014, rmsd is 20.025057
+sib.fastconf.EADock3: Minimizing binding mode 4, energy is -427.61832, rmsd is 3.6844165
+sib.fastconf.EADock3: Minimizing binding mode 5, energy is -325.94662, rmsd is 20.651201
+sib.fastconf.EADock3: Minimizing binding mode 6, energy is -309.6229, rmsd is 13.764219
+sib.fastconf.EADock3: Minimizing binding mode 7, energy is -235.91498, rmsd is 18.354967
+sib.fastconf.EADock3: Minimizing binding mode 8, energy is -213.08026, rmsd is 3.6439075
+sib.fastconf.EADock3: Minimizing binding mode 9, energy is -204.95822, rmsd is 18.1686
+sib.fastconf.EADock3: Minimizing binding mode 10, energy is -199.5254, rmsd is 22.487204
+sib.fastconf.EADock3: Minimizing binding mode 11, energy is -170.40224, rmsd is 20.488708
+sib.fastconf.EADock3: Minimizing binding mode 12, energy is -134.51132, rmsd is 2.4911804
+sib.fastconf.EADock3: Minimizing binding mode 13, energy is -124.46743, rmsd is 2.843846
+sib.fastconf.EADock3: Minimizing binding mode 14, energy is -49.083294, rmsd is 17.806164
+sib.fastconf.EADock3: Minimizing binding mode 15, energy is -43.47793, rmsd is 2.564501
+sib.fastconf.EADock3: Minimizing binding mode 16, energy is -27.886457, rmsd is 19.236145
+sib.fastconf.EADock3: Minimizing binding mode 17, energy is -26.476505, rmsd is 21.73902
+sib.fastconf.EADock3: Minimizing binding mode 18, energy is -13.334118, rmsd is 20.69228
+sib.fastconf.EADock3: Minimizing binding mode 19, energy is -10.829678, rmsd is 19.38244
+sib.fastconf.EADock3: Minimizing binding mode 20, energy is -6.1582627, rmsd is 2.0684521
+sib.fastconf.EADock3: Minimizing binding mode 21, energy is 4.5468125, rmsd is 14.2092495
+sib.fastconf.EADock3: Minimizing binding mode 22, energy is 25.091318, rmsd is 2.8231096
+sib.fastconf.EADock3: Minimizing binding mode 23, energy is 29.429344, rmsd is 20.08403
+sib.fastconf.EADock3: Minimizing binding mode 24, energy is 32.307934, rmsd is 21.025127
+sib.fastconf.EADock3: Minimizing binding mode 25, energy is 38.36203, rmsd is 18.54597
+sib.fastconf.EADock3: Minimizing binding mode 26, energy is 38.61181, rmsd is 17.919075
+sib.fastconf.EADock3: Minimizing binding mode 27, energy is 39.498383, rmsd is 3.6753488
+sib.fastconf.EADock3: Minimizing binding mode 28, energy is 56.43511, rmsd is 2.43128
+sib.fastconf.EADock3: Minimizing binding mode 29, energy is 62.52421, rmsd is 22.575956
+sib.fastconf.EADock3: Minimizing binding mode 30, energy is 65.051285, rmsd is 2.6408086
+sib.fastconf.EADock3: Minimizing binding mode 31, energy is 67.328026, rmsd is 16.980291
+sib.fastconf.EADock3: Minimizing binding mode 32, energy is 69.354454, rmsd is 1.1664507
+sib.fastconf.EADock3: Minimizing binding mode 33, energy is 70.00339, rmsd is 1.9810008
+sib.fastconf.EADock3: Minimizing binding mode 34, energy is 70.09468, rmsd is 1.090256
+sib.fastconf.EADock3: Minimizing binding mode 35, energy is 70.58829, rmsd is 19.899437
+sib.fastconf.EADock3: Minimizing binding mode 36, energy is 70.6293, rmsd is 2.2722223
+sib.fastconf.EADock3: Minimizing binding mode 37, energy is 71.19247, rmsd is 1.5726922
+sib.fastconf.EADock3: Minimizing binding mode 38, energy is 71.72649, rmsd is 21.353676
+sib.fastconf.EADock3: Minimizing binding mode 39, energy is 71.78348, rmsd is 20.767982
+sib.fastconf.EADock3: Minimizing binding mode 40, energy is 71.939575, rmsd is 1.2667493
+sib.fastconf.EADock3: Minimizing binding mode 41, energy is 72.059395, rmsd is 1.0363429
+sib.fastconf.EADock3: Minimizing binding mode 42, energy is 72.07953, rmsd is 2.6613781
+sib.fastconf.EADock3: Minimizing binding mode 43, energy is 72.84591, rmsd is 1.8861483
+sib.fastconf.EADock3: Minimizing binding mode 44, energy is 74.4896, rmsd is 21.869999
+sib.fastconf.EADock3: Minimizing binding mode 45, energy is 74.94086, rmsd is 20.287619
+sib.fastconf.EADock3: Minimizing binding mode 46, energy is 75.8275, rmsd is 1.5123284
+sib.fastconf.EADock3: Minimizing binding mode 47, energy is 76.383766, rmsd is 20.2564
+sib.fastconf.EADock3: Minimizing binding mode 48, energy is 76.94907, rmsd is 2.7858946
+sib.fastconf.EADock3: Minimizing binding mode 49, energy is 77.01537, rmsd is 19.797134
+sib.fastconf.EADock3: Minimizing binding mode 50, energy is 77.64276, rmsd is 1.6042243
+sib.fastconf.EADock3: Minimizing binding mode 51, energy is 77.846245, rmsd is 2.2849092
+sib.fastconf.EADock3: Minimizing binding mode 52, energy is 78.11197, rmsd is 13.785627
+sib.fastconf.EADock3: Minimizing binding mode 53, energy is 79.03507, rmsd is 1.2463598
+sib.fastconf.EADock3: Minimizing binding mode 54, energy is 79.30581, rmsd is 2.310626
+sib.fastconf.EADock3: Minimizing binding mode 55, energy is 79.81713, rmsd is 1.959649
+sib.fastconf.EADock3: Minimizing binding mode 56, energy is 79.89557, rmsd is 1.6379031
+sib.fastconf.EADock3: Minimizing binding mode 57, energy is 80.44451, rmsd is 2.5226674
+sib.fastconf.EADock3: Minimizing binding mode 58, energy is 80.46489, rmsd is 19.204742
+sib.fastconf.EADock3: Minimizing binding mode 59, energy is 80.69368, rmsd is 19.70173
+sib.fastconf.EADock3: Minimizing binding mode 60, energy is 83.279236, rmsd is 20.260015
+sib.fastconf.EADock3: Minimizing binding mode 61, energy is 83.88628, rmsd is 1.738118
+sib.fastconf.EADock3: Minimizing binding mode 62, energy is 84.11464, rmsd is 20.487589
+sib.fastconf.EADock3: Minimizing binding mode 63, energy is 84.16447, rmsd is 19.786636
+sib.fastconf.EADock3: Minimizing binding mode 64, energy is 84.57437, rmsd is 18.924433
+sib.fastconf.EADock3: Minimizing binding mode 65, energy is 85.00835, rmsd is 1.7517338
+sib.fastconf.EADock3: Minimizing binding mode 66, energy is 85.134315, rmsd is 1.9541706
+sib.fastconf.EADock3: Minimizing binding mode 67, energy is 85.6225, rmsd is 2.0468373
+sib.fastconf.EADock3: Minimizing binding mode 68, energy is 85.69423, rmsd is 1.940264
+sib.fastconf.EADock3: Minimizing binding mode 69, energy is 86.70439, rmsd is 21.100319
+sib.fastconf.EADock3: Minimizing binding mode 70, energy is 87.37212, rmsd is 0.37968993
+sib.fastconf.EADock3: Minimizing binding mode 71, energy is 87.68115, rmsd is 1.9063287
+sib.fastconf.EADock3: Minimizing binding mode 72, energy is 87.74609, rmsd is 18.177021
+sib.fastconf.EADock3: Minimizing binding mode 73, energy is 87.78493, rmsd is 20.605616
+sib.fastconf.EADock3: Minimizing binding mode 74, energy is 87.87448, rmsd is 2.0011668
+sib.fastconf.EADock3: Minimizing binding mode 75, energy is 88.15072, rmsd is 1.7695472
+sib.fastconf.EADock3: Minimizing binding mode 76, energy is 88.30301, rmsd is 1.1293675
+sib.fastconf.EADock3: Minimizing binding mode 77, energy is 88.68355, rmsd is 2.016932
+sib.fastconf.EADock3: Minimizing binding mode 78, energy is 88.98914, rmsd is 19.283812
+sib.fastconf.EADock3: Minimizing binding mode 79, energy is 89.09548, rmsd is 1.9447479
+sib.fastconf.EADock3: Minimizing binding mode 80, energy is 89.09842, rmsd is 19.583519
+sib.fastconf.EADock3: Minimizing binding mode 81, energy is 89.42945, rmsd is 19.393175
+sib.fastconf.EADock3: Minimizing binding mode 82, energy is 89.49481, rmsd is 2.549936
+sib.fastconf.EADock3: Minimizing binding mode 83, energy is 89.55727, rmsd is 2.6461205
+sib.fastconf.EADock3: Minimizing binding mode 84, energy is 89.56839, rmsd is 2.8523002
+sib.fastconf.EADock3: Minimizing binding mode 85, energy is 90.79749, rmsd is 20.747139
+sib.fastconf.EADock3: Minimizing binding mode 86, energy is 90.85004, rmsd is 1.8450179
+sib.fastconf.EADock3: Minimizing binding mode 87, energy is 91.39685, rmsd is 1.5908256
+sib.fastconf.EADock3: Minimizing binding mode 88, energy is 91.570564, rmsd is 2.1982596
+sib.fastconf.EADock3: Minimizing binding mode 89, energy is 91.844666, rmsd is 1.9597912
+sib.fastconf.EADock3: Minimizing binding mode 90, energy is 92.27682, rmsd is 20.895332
+sib.fastconf.EADock3: Minimizing binding mode 91, energy is 92.277756, rmsd is 1.7652054
+sib.fastconf.EADock3: Minimizing binding mode 92, energy is 92.389175, rmsd is 1.1567106
+sib.fastconf.EADock3: Minimizing binding mode 93, energy is 92.938416, rmsd is 17.57875
+sib.fastconf.EADock3: Minimizing binding mode 94, energy is 93.285095, rmsd is 22.287909
+sib.fastconf.EADock3: Minimizing binding mode 95, energy is 93.73059, rmsd is 1.4349004
+sib.fastconf.EADock3: Minimizing binding mode 96, energy is 94.0728, rmsd is 2.2565155
+sib.fastconf.EADock3: Minimizing binding mode 97, energy is 94.18203, rmsd is 1.9237361
+sib.fastconf.EADock3: Minimizing binding mode 98, energy is 94.215805, rmsd is 20.501722
+sib.fastconf.EADock3: Minimizing binding mode 99, energy is 94.437775, rmsd is 1.9142798
+sib.fastconf.EADock3: Minimizing binding mode 100, energy is 94.79579, rmsd is 21.203661
+sib.fastconf.EADock3: Minimizing binding mode 101, energy is 95.043434, rmsd is 20.757694
+sib.fastconf.EADock3: Minimizing binding mode 102, energy is 95.444244, rmsd is 1.753605
+sib.fastconf.EADock3: Minimizing binding mode 103, energy is 95.46685, rmsd is 2.5033073
+sib.fastconf.EADock3: Minimizing binding mode 104, energy is 95.50127, rmsd is 21.029566
+sib.fastconf.EADock3: Minimizing binding mode 105, energy is 95.843994, rmsd is 1.9369365
+sib.fastconf.EADock3: Minimizing binding mode 106, energy is 96.572876, rmsd is 19.387468
+sib.fastconf.EADock3: Minimizing binding mode 107, energy is 96.70154, rmsd is 20.474306
+sib.fastconf.EADock3: Minimizing binding mode 108, energy is 97.00598, rmsd is 20.567728
+sib.fastconf.EADock3: Minimizing binding mode 109, energy is 97.210526, rmsd is 19.722448
+sib.fastconf.EADock3: Minimizing binding mode 110, energy is 97.266014, rmsd is 2.3621187
+sib.fastconf.EADock3: Minimizing binding mode 111, energy is 97.37503, rmsd is 20.21215
+sib.fastconf.EADock3: Minimizing binding mode 112, energy is 97.41087, rmsd is 2.9183426
+sib.fastconf.EADock3: Minimizing binding mode 113, energy is 97.64961, rmsd is 2.3515522
+sib.fastconf.EADock3: Minimizing binding mode 114, energy is 97.960205, rmsd is 19.891636
+sib.fastconf.EADock3: Minimizing binding mode 115, energy is 98.150314, rmsd is 2.911306
+sib.fastconf.EADock3: Minimizing binding mode 116, energy is 98.271614, rmsd is 20.863577
+sib.fastconf.EADock3: Minimizing binding mode 117, energy is 98.637856, rmsd is 20.782568
+sib.fastconf.EADock3: Minimizing binding mode 118, energy is 99.32515, rmsd is 18.824629
+sib.fastconf.EADock3: Minimizing binding mode 119, energy is 99.434395, rmsd is 19.414171
+sib.fastconf.EADock3: Minimizing binding mode 120, energy is 100.107025, rmsd is 19.886799
+sib.fastconf.EADock3: Minimizing binding mode 121, energy is 100.339355, rmsd is 20.272402
+sib.fastconf.EADock3: Minimizing binding mode 122, energy is 100.35502, rmsd is 19.885122
+sib.fastconf.EADock3: Minimizing binding mode 123, energy is 100.71542, rmsd is 0.84597635
+sib.fastconf.EADock3: Minimizing binding mode 124, energy is 101.033005, rmsd is 1.4189643
+sib.fastconf.EADock3: Minimizing binding mode 125, energy is 101.08746, rmsd is 1.5728126
+sib.fastconf.EADock3: Minimizing binding mode 126, energy is 101.27612, rmsd is 1.2973162
+sib.fastconf.EADock3: Minimizing binding mode 127, energy is 101.570854, rmsd is 1.7008451
+sib.fastconf.EADock3: Minimizing binding mode 128, energy is 101.73381, rmsd is 1.6735188
+sib.fastconf.EADock3: Minimizing binding mode 129, energy is 102.24405, rmsd is 20.150757
+sib.fastconf.EADock3: Minimizing binding mode 130, energy is 102.604935, rmsd is 2.8084826
+sib.fastconf.EADock3: Minimizing binding mode 131, energy is 102.72644, rmsd is 19.550173
+sib.fastconf.EADock3: Minimizing binding mode 132, energy is 102.8065, rmsd is 21.635284
+sib.fastconf.EADock3: Minimizing binding mode 133, energy is 102.81834, rmsd is 2.4269197
+sib.fastconf.EADock3: Minimizing binding mode 134, energy is 102.86434, rmsd is 21.214193
+sib.fastconf.EADock3: Minimizing binding mode 135, energy is 103.48996, rmsd is 19.040773
+sib.fastconf.EADock3: Minimizing binding mode 136, energy is 103.52931, rmsd is 1.7819928
+sib.fastconf.EADock3: Minimizing binding mode 137, energy is 103.84728, rmsd is 1.7042975
+sib.fastconf.EADock3: Minimizing binding mode 138, energy is 103.88005, rmsd is 1.0990459
+sib.fastconf.EADock3: Minimizing binding mode 139, energy is 104.23896, rmsd is 20.258116
+sib.fastconf.EADock3: Minimizing binding mode 140, energy is 104.46136, rmsd is 2.5651073
+sib.fastconf.EADock3: Minimizing binding mode 141, energy is 104.6379, rmsd is 2.1524346
+sib.fastconf.EADock3: Minimizing binding mode 142, energy is 104.65905, rmsd is 20.006418
+sib.fastconf.EADock3: Minimizing binding mode 143, energy is 104.976204, rmsd is 21.32412
+sib.fastconf.EADock3: Minimizing binding mode 144, energy is 105.259056, rmsd is 1.5227977
+sib.fastconf.EADock3: Minimizing binding mode 145, energy is 105.72076, rmsd is 2.5002325
+sib.fastconf.EADock3: Minimizing binding mode 146, energy is 105.96147, rmsd is 20.630947
+sib.fastconf.EADock3: Minimizing binding mode 147, energy is 106.04786, rmsd is 1.1119506
+sib.fastconf.EADock3: Minimizing binding mode 148, energy is 106.88472, rmsd is 2.0096922
+sib.fastconf.EADock3: Minimizing binding mode 149, energy is 107.074005, rmsd is 16.679996
+sib.fastconf.EADock3: Minimizing binding mode 150, energy is 107.15241, rmsd is 21.18332
+sib.fastconf.EADock3: Minimizing binding mode 151, energy is 107.328705, rmsd is 18.954271
+sib.fastconf.EADock3: Minimizing binding mode 152, energy is 107.98729, rmsd is 1.6655874
+sib.fastconf.EADock3: Minimizing binding mode 153, energy is 108.062775, rmsd is 20.3153
+sib.fastconf.EADock3: Minimizing binding mode 154, energy is 108.33056, rmsd is 19.399162
+sib.fastconf.EADock3: Minimizing binding mode 155, energy is 109.18123, rmsd is 2.9356654
+sib.fastconf.EADock3: Minimizing binding mode 156, energy is 109.34389, rmsd is 2.208925
+sib.fastconf.EADock3: Minimizing binding mode 157, energy is 109.41289, rmsd is 18.817936
+sib.fastconf.EADock3: Minimizing binding mode 158, energy is 109.499565, rmsd is 13.547826
+sib.fastconf.EADock3: Minimizing binding mode 159, energy is 109.55682, rmsd is 20.832705
+sib.fastconf.EADock3: Minimizing binding mode 160, energy is 109.5955, rmsd is 2.0360835
+sib.fastconf.EADock3: Minimizing binding mode 161, energy is 110.06648, rmsd is 2.4852936
+sib.fastconf.EADock3: Minimizing binding mode 162, energy is 110.16259, rmsd is 19.599585
+sib.fastconf.EADock3: Minimizing binding mode 163, energy is 110.82715, rmsd is 20.17478
+sib.fastconf.EADock3: Minimizing binding mode 164, energy is 110.84186, rmsd is 1.550563
+sib.fastconf.EADock3: Minimizing binding mode 165, energy is 111.35938, rmsd is 22.426176
+sib.fastconf.EADock3: Minimizing binding mode 166, energy is 111.592094, rmsd is 1.7659607
+sib.fastconf.EADock3: Minimizing binding mode 167, energy is 111.67422, rmsd is 2.7584534
+sib.fastconf.EADock3: Minimizing binding mode 168, energy is 111.83492, rmsd is 2.5900161
+sib.fastconf.EADock3: Minimizing binding mode 169, energy is 112.35288, rmsd is 21.440054
+sib.fastconf.EADock3: Minimizing binding mode 170, energy is 112.4568, rmsd is 20.750816
+sib.fastconf.EADock3: Minimizing binding mode 171, energy is 112.46921, rmsd is 21.794308
+sib.fastconf.EADock3: Minimizing binding mode 172, energy is 112.516556, rmsd is 1.654463
+sib.fastconf.EADock3: Minimizing binding mode 173, energy is 112.565475, rmsd is 20.332996
+sib.fastconf.EADock3: Minimizing binding mode 174, energy is 112.82439, rmsd is 17.693535
+sib.fastconf.EADock3: Minimizing binding mode 175, energy is 112.905525, rmsd is 2.1284747
+sib.fastconf.EADock3: Minimizing binding mode 176, energy is 113.02914, rmsd is 3.0288355
+sib.fastconf.EADock3: Minimizing binding mode 177, energy is 113.08325, rmsd is 20.054634
+sib.fastconf.EADock3: Minimizing binding mode 178, energy is 113.629425, rmsd is 2.8473408
+sib.fastconf.EADock3: Minimizing binding mode 179, energy is 114.05902, rmsd is 17.93282
+sib.fastconf.EADock3: Minimizing binding mode 180, energy is 114.19024, rmsd is 20.077114
+sib.fastconf.EADock3: Minimizing binding mode 181, energy is 114.42504, rmsd is 0.5787019
+sib.fastconf.EADock3: Minimizing binding mode 182, energy is 114.7067, rmsd is 3.054419
+sib.fastconf.EADock3: Minimizing binding mode 183, energy is 115.238495, rmsd is 1.3945748
+sib.fastconf.EADock3: Minimizing binding mode 184, energy is 115.474174, rmsd is 1.7358549
+sib.fastconf.EADock3: Minimizing binding mode 185, energy is 115.73935, rmsd is 20.266537
+sib.fastconf.EADock3: Minimizing binding mode 186, energy is 115.85452, rmsd is 20.617188
+sib.fastconf.EADock3: Minimizing binding mode 187, energy is 116.09251, rmsd is 20.470915
+sib.fastconf.EADock3: Minimizing binding mode 188, energy is 116.265396, rmsd is 20.746424
+sib.fastconf.EADock3: Minimizing binding mode 189, energy is 116.297356, rmsd is 1.9923364
+sib.fastconf.EADock3: Minimizing binding mode 190, energy is 116.45265, rmsd is 19.7858
+sib.fastconf.EADock3: Minimizing binding mode 191, energy is 116.57145, rmsd is 20.532833
+sib.fastconf.EADock3: Minimizing binding mode 192, energy is 116.64604, rmsd is 16.797853
+sib.fastconf.EADock3: Minimizing binding mode 193, energy is 116.64991, rmsd is 18.011463
+sib.fastconf.EADock3: Minimizing binding mode 194, energy is 117.36106, rmsd is 3.2220483
+sib.fastconf.EADock3: Minimizing binding mode 195, energy is 118.071396, rmsd is 19.585773
+sib.fastconf.EADock3: Minimizing binding mode 196, energy is 118.357086, rmsd is 19.768389
+sib.fastconf.EADock3: Minimizing binding mode 197, energy is 119.02472, rmsd is 19.571337
+sib.fastconf.EADock3: Minimizing binding mode 198, energy is 119.06272, rmsd is 21.984669
+sib.fastconf.EADock3: Minimizing binding mode 199, energy is 119.53413, rmsd is 20.791355
+sib.fastconf.EADock3: Minimizing binding mode 200, energy is 120.337234, rmsd is 1.4955631
+sib.fastconf.EADock3: Minimizing binding mode 201, energy is 120.36664, rmsd is 2.5983956
+sib.fastconf.EADock3: Minimizing binding mode 202, energy is 120.46832, rmsd is 16.483212
+sib.fastconf.EADock3: Minimizing binding mode 203, energy is 120.64052, rmsd is 20.831911
+sib.fastconf.EADock3: Minimizing binding mode 204, energy is 120.68231, rmsd is 20.555342
+sib.fastconf.EADock3: Minimizing binding mode 205, energy is 121.00668, rmsd is 2.6048057
+sib.fastconf.EADock3: Minimizing binding mode 206, energy is 121.287506, rmsd is 2.109921
+sib.fastconf.EADock3: Minimizing binding mode 207, energy is 121.30849, rmsd is 2.7328422
+sib.fastconf.EADock3: Minimizing binding mode 208, energy is 121.6406, rmsd is 2.211233
+sib.fastconf.EADock3: Minimizing binding mode 209, energy is 121.792946, rmsd is 2.8291886
+sib.fastconf.EADock3: Minimizing binding mode 210, energy is 121.93111, rmsd is 20.20756
+sib.fastconf.EADock3: Minimizing binding mode 211, energy is 122.01467, rmsd is 21.015806
+sib.fastconf.EADock3: Minimizing binding mode 212, energy is 122.28989, rmsd is 21.07737
+sib.fastconf.EADock3: Minimizing binding mode 213, energy is 122.30712, rmsd is 2.6193554
+sib.fastconf.EADock3: Minimizing binding mode 214, energy is 122.58908, rmsd is 19.76941
+sib.fastconf.EADock3: Minimizing binding mode 215, energy is 122.873085, rmsd is 21.475302
+sib.fastconf.EADock3: Minimizing binding mode 216, energy is 123.74503, rmsd is 2.0788462
+sib.fastconf.EADock3: Minimizing binding mode 217, energy is 123.95136, rmsd is 18.499989
+sib.fastconf.EADock3: Minimizing binding mode 218, energy is 124.1636, rmsd is 19.940416
+sib.fastconf.EADock3: Minimizing binding mode 219, energy is 124.228806, rmsd is 20.222094
+sib.fastconf.EADock3: Minimizing binding mode 220, energy is 124.27964, rmsd is 2.0204961
+sib.fastconf.EADock3: Minimizing binding mode 221, energy is 124.30267, rmsd is 21.231392
+sib.fastconf.EADock3: Minimizing binding mode 222, energy is 124.66796, rmsd is 19.46179
+sib.fastconf.EADock3: Minimizing binding mode 223, energy is 124.960915, rmsd is 1.9664545
+sib.fastconf.EADock3: Minimizing binding mode 224, energy is 125.11765, rmsd is 1.9733951
+sib.fastconf.EADock3: Minimizing binding mode 225, energy is 125.35521, rmsd is 19.070454
+sib.fastconf.EADock3: Minimizing binding mode 226, energy is 125.52567, rmsd is 17.72873
+sib.fastconf.EADock3: Minimizing binding mode 227, energy is 125.587036, rmsd is 19.76907
+sib.fastconf.EADock3: Minimizing binding mode 228, energy is 125.63719, rmsd is 19.0259
+sib.fastconf.EADock3: Minimizing binding mode 229, energy is 126.01769, rmsd is 15.091892
+sib.fastconf.EADock3: Minimizing binding mode 230, energy is 126.229195, rmsd is 1.8348
+sib.fastconf.EADock3: Minimizing binding mode 231, energy is 126.678055, rmsd is 21.469185
+sib.fastconf.EADock3: Minimizing binding mode 232, energy is 126.829796, rmsd is 2.0081332
+sib.fastconf.EADock3: Minimizing binding mode 233, energy is 127.19341, rmsd is 2.1270924
+sib.fastconf.EADock3: Minimizing binding mode 234, energy is 127.352005, rmsd is 19.399042
+sib.fastconf.EADock3: Minimizing binding mode 235, energy is 127.8716, rmsd is 3.1248455
+sib.fastconf.EADock3: Minimizing binding mode 236, energy is 128.11035, rmsd is 19.675901
+sib.fastconf.EADock3: Minimizing binding mode 237, energy is 128.51959, rmsd is 18.714458
+sib.fastconf.EADock3: Minimizing binding mode 238, energy is 128.6823, rmsd is 1.5581439
+sib.fastconf.EADock3: Minimizing binding mode 239, energy is 129.26953, rmsd is 18.832619
+sib.fastconf.EADock3: Minimizing binding mode 240, energy is 129.31007, rmsd is 18.152842
+sib.fastconf.EADock3: Minimizing binding mode 241, energy is 129.48909, rmsd is 19.904894
+sib.fastconf.EADock3: Minimizing binding mode 242, energy is 129.54279, rmsd is 20.325272
+sib.fastconf.EADock3: Minimizing binding mode 243, energy is 130.87997, rmsd is 19.330969
+sib.fastconf.EADock3: Minimizing binding mode 244, energy is 130.89192, rmsd is 21.19972
+sib.fastconf.EADock3: Minimizing binding mode 245, energy is 131.03014, rmsd is 2.7739673
+sib.fastconf.EADock3: Minimizing binding mode 246, energy is 131.08275, rmsd is 19.988348
+sib.fastconf.EADock3: Minimizing binding mode 247, energy is 131.27582, rmsd is 2.2629929
+sib.fastconf.EADock3: Minimizing binding mode 248, energy is 132.51125, rmsd is 1.889118
+sib.fastconf.EADock3: Minimizing binding mode 249, energy is 133.03738, rmsd is 17.31331
+sib.fastconf.EADock3: Filter out binding modes with an energy above 3.4028235E38 (3.4028235E38 above the most favorable binding mode, which has an energy of -6.96245)
+sib.wrappers.md.charmm.ExtendedCharmmWrapper: CHARMM timers: CPU time: 699 seconds
+sib.wrappers.md.charmm.ExtendedCharmmWrapper: CHARMM timers: Elapsed time: 949.616 seconds.
+sib.fastconf.EADock3: Starting clustering
+ERROR>forrtl: error (78): process killed (SIGTERM)
+sib.fastconf.EADock3: Clustering iteration 0 took 10 ms and merged 177 clusters.
+sib.fastconf.EADock3: Clustering iteration 1 took 0 ms and merged 11 clusters.
+sib.fastconf.EADock3: Clustering iteration 2 took 0 ms and merged 0 clusters.
+sib.fastconf.EADock3: Clustering took 20 ms.
+sib.fastconf.EADock3: 250 elements were gathered in 62 clusters.
+sib.fastconf.EADock3: Evaluating cluster 0/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 1/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 2/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 3/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 4/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 5/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 6/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 7/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 8/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 9/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 10/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 11/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 12/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 13/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 14/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 15/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 16/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 17/62
+sib.fastconf.EADock3: Evaluating binding mode 0/6 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/6 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/6 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/6 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/6 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/6 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 18/62
+sib.fastconf.EADock3: Evaluating binding mode 0/5 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/5 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/5 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/5 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/5 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 19/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 20/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 21/62
+sib.fastconf.EADock3: Evaluating binding mode 0/2 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/2 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 22/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 23/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 24/62
+sib.fastconf.EADock3: Evaluating binding mode 0/15 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/15 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/15 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/15 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/15 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/15 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/15 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/15 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 8/15 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 9/15 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 10/15 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 11/15 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 12/15 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 13/15 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 14/15 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 25/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 26/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 27/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 28/62
+sib.fastconf.EADock3: Evaluating binding mode 0/3 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/3 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/3 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 29/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 30/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 31/62
+sib.fastconf.EADock3: Evaluating binding mode 0/2 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/2 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 32/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 33/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 34/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 35/62
+sib.fastconf.EADock3: Evaluating binding mode 0/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 8/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 9/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 10/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 11/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 12/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 13/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 14/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 15/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 16/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 17/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 18/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 19/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 20/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 21/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 22/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 23/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 24/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 25/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 26/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 27/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 28/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 29/31 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 30/31 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 36/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 37/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 38/62
+sib.fastconf.EADock3: Evaluating binding mode 0/2 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/2 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 39/62
+sib.fastconf.EADock3: Evaluating binding mode 0/14 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/14 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/14 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/14 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/14 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/14 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/14 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/14 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 8/14 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 9/14 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 10/14 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 11/14 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 12/14 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 13/14 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 40/62
+sib.fastconf.EADock3: Evaluating binding mode 0/2 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/2 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 41/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 42/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 43/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 44/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 45/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 46/62
+sib.fastconf.EADock3: Evaluating binding mode 0/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 8/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 9/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 10/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 11/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 12/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 13/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 14/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 15/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 16/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 17/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 18/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 19/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 20/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 21/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 22/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 23/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 24/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 25/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 26/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 27/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 28/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 29/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 30/32 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 31/32 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 47/62
+sib.fastconf.EADock3: Evaluating binding mode 0/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 8/9 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 48/62
+sib.fastconf.EADock3: Evaluating binding mode 0/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 8/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 9/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 10/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 11/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 12/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 13/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 14/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 15/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 16/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 17/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 18/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 19/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 20/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 21/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 22/24 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 23/24 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 49/62
+sib.fastconf.EADock3: Evaluating binding mode 0/2 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/2 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 50/62
+sib.fastconf.EADock3: Evaluating binding mode 0/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 8/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 9/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 10/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 11/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 12/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 13/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 14/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 15/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 16/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 17/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 18/20 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 19/20 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 51/62
+sib.fastconf.EADock3: Evaluating binding mode 0/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 8/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 9/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 10/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 11/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 12/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 13/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 14/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 15/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 16/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 17/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 18/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 19/21 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 20/21 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 52/62
+sib.fastconf.EADock3: Evaluating binding mode 0/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/7 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 53/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 54/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 55/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 56/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 57/62
+sib.fastconf.EADock3: Evaluating binding mode 0/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 8/9 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 58/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 59/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 60/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 61/62
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.wrappers.md.charmm.ExtendedCharmmWrapper: CHARMM timers: CPU time: 240.76 seconds
+sib.wrappers.md.charmm.ExtendedCharmmWrapper: CHARMM timers: Elapsed time: 258.14 seconds.
+ERROR>forrtl: error (78): process killed (SIGTERM)
+sib.fastconf.EADock3: Starting cluster expansion.
+sib.fastconf.EADock3: System  : 7811 atoms
+sib.fastconf.EADock3: Ligand  : 20 atoms
+sib.fastconf.EADock3: Receptor: 7791 atoms
+sib.fastconf.EADock3:   Fixed part   : 7434 atoms
+sib.fastconf.EADock3:   Flexible part: 357 atoms
+sib.fastconf.EADock3: Expanding cluster 0/32
+sib.fastconf.EADock3: Expanding cluster 1/32
+sib.fastconf.EADock3: Expanding cluster 2/32
+sib.fastconf.EADock3: Expanding cluster 3/32
+sib.fastconf.EADock3: Expanding cluster 4/32
+sib.fastconf.EADock3: Expanding cluster 5/32
+sib.fastconf.EADock3: Expanding cluster 6/32
+sib.fastconf.EADock3: Expanding cluster 7/32
+sib.fastconf.EADock3: Expanding cluster 8/32
+sib.fastconf.EADock3: Expanding cluster 9/32
+sib.fastconf.EADock3: Expanding cluster 10/32
+sib.fastconf.EADock3: Expanding cluster 11/32
+sib.fastconf.EADock3: Expanding cluster 12/32
+sib.fastconf.EADock3: Expanding cluster 13/32
+sib.fastconf.EADock3: Expanding cluster 14/32
+sib.fastconf.EADock3: Expanding cluster 15/32
+sib.fastconf.EADock3: Expanding cluster 16/32
+sib.fastconf.EADock3: Expanding cluster 17/32
+sib.fastconf.EADock3: Expanding cluster 18/32
+sib.fastconf.EADock3: Expanding cluster 19/32
+sib.fastconf.EADock3: Expanding cluster 20/32
+sib.fastconf.EADock3: Expanding cluster 21/32
+sib.fastconf.EADock3: Expanding cluster 22/32
+sib.fastconf.EADock3: Expanding cluster 23/32
+sib.fastconf.EADock3: Expanding cluster 24/32
+sib.fastconf.EADock3: Expanding cluster 25/32
+sib.fastconf.EADock3: Expanding cluster 26/32
+sib.fastconf.EADock3: Expanding cluster 27/32
+sib.fastconf.EADock3: Expanding cluster 28/32
+sib.fastconf.EADock3: Expanding cluster 29/32
+sib.fastconf.EADock3: Expanding cluster 30/32
+sib.fastconf.EADock3: Expanding cluster 31/32
+sib.wrappers.md.charmm.ExtendedCharmmWrapper: CHARMM timers: CPU time: 919.57 seconds
+sib.wrappers.md.charmm.ExtendedCharmmWrapper: CHARMM timers: Elapsed time: 1007.4 seconds.
+sib.fastconf.EADock3: Starting clustering
+ERROR>forrtl: error (78): process killed (SIGTERM)
+sib.fastconf.EADock3: Clustering iteration 0 took 10 ms and merged 210 clusters.
+sib.fastconf.EADock3: Clustering iteration 1 took 0 ms and merged 4 clusters.
+sib.fastconf.EADock3: Clustering iteration 2 took 0 ms and merged 0 clusters.
+sib.fastconf.EADock3: Clustering took 10 ms.
+sib.fastconf.EADock3: 256 elements were gathered in 42 clusters.
+sib.fastconf.EADock3: clusters expanded, 256 binding modes generated
+sib.fastconf.EADock3: Evaluating cluster 0/42
+sib.fastconf.EADock3: Evaluating binding mode 0/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/7 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 1/42
+sib.fastconf.EADock3: Evaluating binding mode 0/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/7 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 2/42
+sib.fastconf.EADock3: Evaluating binding mode 0/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/8 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 3/42
+sib.fastconf.EADock3: Evaluating binding mode 0/5 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/5 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/5 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/5 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/5 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 4/42
+sib.fastconf.EADock3: Evaluating binding mode 0/10 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/10 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/10 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/10 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/10 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/10 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/10 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/10 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 8/10 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 9/10 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 5/42
+sib.fastconf.EADock3: Evaluating binding mode 0/3 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/3 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/3 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 6/42
+sib.fastconf.EADock3: Evaluating binding mode 0/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/7 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 7/42
+sib.fastconf.EADock3: Evaluating binding mode 0/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 8/9 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 8/42
+sib.fastconf.EADock3: Evaluating binding mode 0/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/8 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 9/42
+sib.fastconf.EADock3: Evaluating binding mode 0/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 8/9 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 10/42
+sib.fastconf.EADock3: Evaluating binding mode 0/2 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/2 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 11/42
+sib.fastconf.EADock3: Evaluating binding mode 0/2 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/2 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 12/42
+sib.fastconf.EADock3: Evaluating binding mode 0/6 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/6 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/6 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/6 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/6 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/6 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 13/42
+sib.fastconf.EADock3: Evaluating binding mode 0/4 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/4 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/4 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/4 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 14/42
+sib.fastconf.EADock3: Evaluating binding mode 0/2 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/2 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 15/42
+sib.fastconf.EADock3: Evaluating binding mode 0/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 8/9 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 16/42
+sib.fastconf.EADock3: Evaluating binding mode 0/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/7 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 17/42
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 18/42
+sib.fastconf.EADock3: Evaluating binding mode 0/12 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/12 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/12 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/12 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/12 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/12 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/12 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/12 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 8/12 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 9/12 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 10/12 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 11/12 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 19/42
+sib.fastconf.EADock3: Evaluating binding mode 0/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/8 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 20/42
+sib.fastconf.EADock3: Evaluating binding mode 0/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/8 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 21/42
+sib.fastconf.EADock3: Evaluating binding mode 0/2 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/2 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 22/42
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 23/42
+sib.fastconf.EADock3: Evaluating binding mode 0/2 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/2 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 24/42
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 25/42
+sib.fastconf.EADock3: Evaluating binding mode 0/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/8 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 26/42
+sib.fastconf.EADock3: Evaluating binding mode 0/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/8 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 27/42
+sib.fastconf.EADock3: Evaluating binding mode 0/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/8 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 28/42
+sib.fastconf.EADock3: Evaluating binding mode 0/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/8 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 29/42
+sib.fastconf.EADock3: Evaluating binding mode 0/2 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/2 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 30/42
+sib.fastconf.EADock3: Evaluating binding mode 0/4 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/4 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/4 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/4 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 31/42
+sib.fastconf.EADock3: Evaluating binding mode 0/2 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/2 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 32/42
+sib.fastconf.EADock3: Evaluating binding mode 0/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/8 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 33/42
+sib.fastconf.EADock3: Evaluating binding mode 0/4 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/4 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/4 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/4 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 34/42
+sib.fastconf.EADock3: Evaluating binding mode 0/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/7 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 35/42
+sib.fastconf.EADock3: Evaluating binding mode 0/1 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 36/42
+sib.fastconf.EADock3: Evaluating binding mode 0/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/9 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 8/9 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 37/42
+sib.fastconf.EADock3: Evaluating binding mode 0/16 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/16 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/16 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/16 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/16 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/16 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/16 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/16 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 8/16 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 9/16 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 10/16 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 11/16 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 12/16 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 13/16 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 14/16 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 15/16 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 38/42
+sib.fastconf.EADock3: Evaluating binding mode 0/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/8 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 39/42
+sib.fastconf.EADock3: Evaluating binding mode 0/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/8 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 40/42
+sib.fastconf.EADock3: Evaluating binding mode 0/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/7 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/7 with FACTS
+sib.fastconf.EADock3: Evaluating cluster 41/42
+sib.fastconf.EADock3: Evaluating binding mode 0/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 1/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 2/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 3/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 4/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 5/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 6/8 with FACTS
+sib.fastconf.EADock3: Evaluating binding mode 7/8 with FACTS
+sib.wrappers.md.charmm.ExtendedCharmmWrapper: CHARMM timers: CPU time: 151.48 seconds
+sib.wrappers.md.charmm.ExtendedCharmmWrapper: CHARMM timers: Elapsed time: 167.615 seconds.
+ERROR>forrtl: error (78): process killed (SIGTERM)
+sib.fastconf.EADock3: EADock3Cluster 0 : 9 elements, SimpleFitness: -2.9599023, FullFitness: -1847.8038 , RMSD: 20.898474 , elements: [ -8.11797 -1847.8038 20.898474 ] [ -8.11797 -1847.8038 20.898474 ] [ -2.25666 -1839.1674 20.495506 ] [ -1.52043 -1837.7786 20.653202 ] [ -1.52043 -1837.7786 20.653202 ] [ -1.52043 -1837.7786 20.653202 ] [ -1.52043 -1837.7786 20.653202 ] [ -1.0324 -1837.215 20.619778 ] [ -1.0324 -1837.215 20.619778 ] 
+sib.fastconf.EADock3: EADock3Cluster 1 : 7 elements, SimpleFitness: -3.3518982, FullFitness: -1846.1686 , RMSD: 21.76821 , elements: [ -8.62755 -1846.1686 21.76821 ] [ -6.39503 -1842.4956 21.608494 ] [ -3.6047 -1842.1002 21.723717 ] [ -3.30399 -1839.225 21.47826 ] [ -0.903296 -1838.4287 22.118137 ] [ -3.8264 -1837.385 21.70655 ] [ 3.19768 -1825.5747 21.261507 ] 
+sib.fastconf.EADock3: EADock3Cluster 2 : 8 elements, SimpleFitness: -3.1627104, FullFitness: -1845.1422 , RMSD: 19.271246 , elements: [ -6.09359 -1845.1422 19.271246 ] [ -5.90722 -1844.3699 19.209442 ] [ -2.87582 -1841.5364 20.194628 ] [ -4.08403 -1841.3433 19.557114 ] [ -2.81954 -1839.7261 20.458813 ] [ -2.72217 -1839.6614 20.38952 ] [ -1.07005 -1836.8518 19.721481 ] [ 0.270734 -1834.2938 19.48496 ] 
+sib.fastconf.EADock3: EADock3Cluster 3 : 5 elements, SimpleFitness: -4.894698, FullFitness: -1845.07 , RMSD: 21.294472 , elements: [ -7.48015 -1845.07 21.294472 ] [ -4.98713 -1840.7318 20.586653 ] [ -4.8666 -1840.716 20.50763 ] [ -4.89929 -1840.5701 20.528208 ] [ -2.24032 -1837.667 20.61847 ] 
+sib.fastconf.EADock3: EADock3Cluster 4 : 8 elements, SimpleFitness: -3.0214114, FullFitness: -1845.0387 , RMSD: 20.218412 , elements: [ -6.72153 -1845.0387 20.218412 ] [ -5.45927 -1843.6003 19.865314 ] [ -3.8354 -1840.8518 19.44552 ] [ -3.77671 -1840.5962 19.945518 ] [ -2.07099 -1840.3586 19.587109 ] [ -1.38264 -1837.5458 19.502184 ] [ -1.5975 -1835.7102 20.196615 ] [ 0.672749 -1833.656 20.192764 ] 
+sib.fastconf.EADock3: EADock3Cluster 5 : 8 elements, SimpleFitness: -5.1500053, FullFitness: -1843.9149 , RMSD: 21.665037 , elements: [ -6.6107 -1843.9149 21.665037 ] [ -6.6107 -1843.9149 21.665037 ] [ -6.6107 -1843.9149 21.665037 ] [ -4.27366 -1840.6399 21.607899 ] [ -4.27366 -1840.6399 21.607899 ] [ -4.27354 -1840.6235 21.608898 ] [ -4.27354 -1840.6235 21.608898 ] [ -4.27354 -1840.6235 21.608898 ] 
+sib.fastconf.EADock3: EADock3Cluster 6 : 2 elements, SimpleFitness: -6.0058346, FullFitness: -1843.7131 , RMSD: 22.437305 , elements: [ -6.12982 -1843.7131 22.437305 ] [ -5.88185 -1842.992 22.332527 ] 
+sib.fastconf.EADock3: EADock3Cluster 7 : 10 elements, SimpleFitness: -1.5324142, FullFitness: -1842.372 , RMSD: 20.063004 , elements: [ -4.65196 -1842.372 20.063004 ] [ -5.07715 -1841.7916 20.101343 ] [ -5.07715 -1841.7916 20.101343 ] [ -5.07355 -1841.7405 20.086855 ] [ -2.91262 -1837.9907 19.887297 ] [ -2.16532 -1837.0156 20.573479 ] [ 0.513298 -1833.527 18.80354 ] [ 3.11499 -1829.6681 19.116852 ] [ 3.11499 -1829.6681 19.116852 ] [ 2.89033 -1829.6595 19.252804 ] 
+sib.fastconf.EADock3: EADock3Cluster 8 : 8 elements, SimpleFitness: -5.0189486, FullFitness: -1842.3135 , RMSD: 19.450956 , elements: [ -5.02902 -1842.3135 19.450956 ] [ -5.05407 -1842.2473 19.454403 ] [ -5.05407 -1842.2473 19.454403 ] [ -5.05407 -1842.2473 19.454403 ] [ -4.99009 -1842.236 19.482208 ] [ -4.99009 -1842.236 19.482208 ] [ -4.99009 -1842.236 19.482208 ] [ -4.99009 -1842.236 19.482208 ] 
+sib.fastconf.EADock3: EADock3Cluster 9 : 7 elements, SimpleFitness: -3.7980459, FullFitness: -1842.0848 , RMSD: 21.300444 , elements: [ -4.97089 -1842.0848 21.300444 ] [ -5.26554 -1841.875 20.739832 ] [ -4.13896 -1840.9453 20.37522 ] [ -3.2254 -1839.3074 20.708584 ] [ -2.91954 -1838.8763 21.022995 ] [ -2.91486 -1838.8671 21.02408 ] [ -3.15113 -1838.0024 20.535896 ] 
+sib.fastconf.EADock3: EADock3Cluster 10 : 12 elements, SimpleFitness: -3.4423697, FullFitness: -1842.0326 , RMSD: 19.827524 , elements: [ -3.8612 -1842.0326 19.827524 ] [ -3.8612 -1842.0326 19.827524 ] [ -3.82929 -1841.9143 19.899864 ] [ -3.82929 -1841.9143 19.899864 ] [ -3.82161 -1841.8638 19.791904 ] [ -3.82161 -1841.8638 19.791904 ] [ -3.82161 -1841.8638 19.791904 ] [ -3.82161 -1841.8638 19.791904 ] [ -2.63379 -1840.7915 20.056505 ] [ -2.63379 -1840.7915 20.056505 ] [ -2.71378 -1840.4873 20.151218 ] [ -2.65966 -1840.1738 20.22291 ] 
+sib.fastconf.EADock3: EADock3Cluster 11 : 9 elements, SimpleFitness: -2.937319, FullFitness: -1841.5725 , RMSD: 20.647196 , elements: [ -4.78787 -1841.5725 20.647196 ] [ -2.70157 -1836.6766 20.828823 ] [ -2.70157 -1836.6766 20.828823 ] [ -2.70157 -1836.6766 20.828823 ] [ -2.70157 -1836.6766 20.828823 ] [ -2.69521 -1836.4517 20.873182 ] [ -2.69521 -1836.4517 20.873182 ] [ -2.72565 -1836.4019 20.862154 ] [ -2.72565 -1836.4019 20.862154 ] 
+sib.fastconf.EADock3: EADock3Cluster 12 : 16 elements, SimpleFitness: -0.67289275, FullFitness: -1841.1163 , RMSD: 20.712173 , elements: [ -2.96234 -1841.1163 20.712173 ] [ -2.96234 -1841.1163 20.712173 ] [ -2.96234 -1841.1163 20.712173 ] [ -2.96234 -1841.1163 20.712173 ] [ -0.239984 -1837.2219 21.126501 ] [ -0.239984 -1837.2219 21.126501 ] [ -0.203774 -1837.0288 21.100948 ] [ -0.203774 -1837.0288 21.100948 ] [ 0.277502 -1835.8501 21.089693 ] [ 0.277502 -1835.8501 21.089693 ] [ 0.277502 -1835.8501 21.089693 ] [ 0.277502 -1835.8501 21.089693 ] [ 0.217223 -1835.7214 21.036491 ] [ 0.217223 -1835.7214 21.036491 ] [ 0.213069 -1835.5837 21.043964 ] [ 0.213069 -1835.5837 21.043964 ] 
+sib.fastconf.EADock3: EADock3Cluster 13 : 4 elements, SimpleFitness: 0.06435895, FullFitness: -1840.8243 , RMSD: 20.19944 , elements: [ -4.79099 -1840.8243 20.19944 ] [ -1.17583 -1836.6218 20.215054 ] [ 0.572696 -1832.9026 20.085344 ] [ 5.65156 -1829.8328 19.431581 ] 
+sib.fastconf.EADock3: EADock3Cluster 14 : 7 elements, SimpleFitness: -2.7045, FullFitness: -1840.5354 , RMSD: 21.237165 , elements: [ -1.70448 -1840.5354 21.237165 ] [ -3.31873 -1840.279 21.787731 ] [ -3.01315 -1838.6548 21.284054 ] [ -2.95323 -1837.2361 21.33662 ] [ -4.15186 -1836.352 21.371729 ] [ -2.5724 -1836.1216 21.934692 ] [ -1.21765 -1835.1884 21.498821 ] 
+sib.fastconf.EADock3: EADock3Cluster 15 : 7 elements, SimpleFitness: 1.90989, FullFitness: -1840.3616 , RMSD: 18.807302 , elements: [ -2.81472 -1840.3616 18.807302 ] [ 1.0905 -1834.815 18.667828 ] [ 1.60372 -1834.0298 19.670326 ] [ 3.56122 -1832.9094 19.566511 ] [ 3.90488 -1832.8827 19.94271 ] [ 2.1495 -1832.375 19.761671 ] [ 3.87413 -1831.9291 19.474104 ] 
+sib.fastconf.EADock3: EADock3Cluster 16 : 8 elements, SimpleFitness: -5.4836497, FullFitness: -1840.2593 , RMSD: 20.282389 , elements: [ -5.52832 -1840.2593 20.282389 ] [ -5.52832 -1840.2593 20.282389 ] [ -5.52832 -1840.2593 20.282389 ] [ -5.52832 -1840.2593 20.282389 ] [ -5.47739 -1840.1555 20.27629 ] [ -5.47739 -1840.1555 20.27629 ] [ -5.40057 -1840.0094 20.375086 ] [ -5.40057 -1840.0094 20.375086 ] 
+sib.fastconf.EADock3: EADock3Cluster 17 : 8 elements, SimpleFitness: -3.15475, FullFitness: -1839.8955 , RMSD: 19.69009 , elements: [ -3.31718 -1839.8955 19.69009 ] [ -3.31718 -1839.8955 19.69009 ] [ -3.37848 -1839.7783 19.684057 ] [ -3.37848 -1839.7783 19.684057 ] [ -3.37848 -1839.7783 19.684057 ] [ -3.37848 -1839.7783 19.684057 ] [ -3.37848 -1839.7783 19.684057 ] [ -1.71124 -1839.5308 19.768082 ] 
+sib.fastconf.EADock3: EADock3Cluster 18 : 8 elements, SimpleFitness: -2.9998598, FullFitness: -1839.5309 , RMSD: 21.342321 , elements: [ -2.98087 -1839.5309 21.342321 ] [ -2.98087 -1839.5309 21.342321 ] [ -2.98087 -1839.5309 21.342321 ] [ -2.98087 -1839.5309 21.342321 ] [ -3.02019 -1839.3229 21.317947 ] [ -3.02019 -1839.3229 21.317947 ] [ -3.01751 -1839.1068 21.301334 ] [ -3.01751 -1839.1068 21.301334 ] 
+sib.fastconf.EADock3: EADock3Cluster 19 : 3 elements, SimpleFitness: -3.7325466, FullFitness: -1839.4923 , RMSD: 21.198172 , elements: [ -3.45102 -1839.4923 21.198172 ] [ -3.02726 -1839.4564 20.779072 ] [ -4.71936 -1839.3854 20.67994 ] 
+sib.fastconf.EADock3: EADock3Cluster 20 : 9 elements, SimpleFitness: -1.4432901, FullFitness: -1839.449 , RMSD: 21.388088 , elements: [ -1.60551 -1839.449 21.388088 ] [ -1.60551 -1839.449 21.388088 ] [ -1.60551 -1839.449 21.388088 ] [ -1.60551 -1839.449 21.388088 ] [ -1.34313 -1838.7222 21.707727 ] [ -1.34313 -1838.7222 21.707727 ] [ -0.80665 -1838.6829 21.618555 ] [ -0.80665 -1838.6829 21.618555 ] [ -2.26801 -1837.0774 21.395609 ] 
+sib.fastconf.EADock3: EADock3Cluster 21 : 7 elements, SimpleFitness: 3.844282, FullFitness: -1839.4258 , RMSD: 19.567938 , elements: [ -2.76394 -1839.4258 19.567938 ] [ -2.72123 -1839.3403 19.544327 ] [ -0.150275 -1835.398 19.344084 ] [ 1.14212 -1834.6296 19.337923 ] [ 11.1425 -1824.4025 19.736944 ] [ 10.1264 -1824.2792 19.379803 ] [ 10.1344 -1824.2365 19.385103 ] 
+sib.fastconf.EADock3: EADock3Cluster 22 : 9 elements, SimpleFitness: -3.3165433, FullFitness: -1838.9373 , RMSD: 21.482136 , elements: [ -3.31011 -1838.9373 21.482136 ] [ -3.31011 -1838.9373 21.482136 ] [ -3.31011 -1838.9373 21.482136 ] [ -3.31011 -1838.9373 21.482136 ] [ -3.31122 -1838.9316 21.482615 ] [ -3.30818 -1838.9155 21.47669 ] [ -3.30818 -1838.9155 21.47669 ] [ -3.30818 -1838.9155 21.47669 ] [ -3.37269 -1837.9487 20.951574 ] 
+sib.fastconf.EADock3: EADock3Cluster 23 : 8 elements, SimpleFitness: -0.5628566, FullFitness: -1838.7765 , RMSD: 13.862564 , elements: [ -0.540155 -1838.7765 13.862564 ] [ -0.546999 -1838.754 13.856035 ] [ -0.546999 -1838.754 13.856035 ] [ -0.57374 -1838.5801 13.858577 ] [ -0.57374 -1838.5801 13.858577 ] [ -0.57374 -1838.5801 13.858577 ] [ -0.57374 -1838.5801 13.858577 ] [ -0.57374 -1838.5801 13.858577 ] 
+sib.fastconf.EADock3: EADock3Cluster 24 : 8 elements, SimpleFitness: -3.3833802, FullFitness: -1838.5564 , RMSD: 20.441578 , elements: [ -3.3928 -1838.5564 20.441578 ] [ -3.3928 -1838.5564 20.441578 ] [ -3.36751 -1838.4423 20.45704 ] [ -3.36751 -1838.4423 20.45704 ] [ -3.36751 -1838.4423 20.45704 ] [ -3.36751 -1838.4423 20.45704 ] [ -3.4057 -1838.4412 20.44541 ] [ -3.4057 -1838.4412 20.44541 ] 
+sib.fastconf.EADock3: EADock3Cluster 25 : 2 elements, SimpleFitness: -1.5526525, FullFitness: -1838.5524 , RMSD: 19.406406 , elements: [ -2.28197 -1838.5524 19.406406 ] [ -0.823335 -1837.1333 19.7246 ] 
+sib.fastconf.EADock3: EADock3Cluster 26 : 2 elements, SimpleFitness: -0.12923998, FullFitness: -1838.3569 , RMSD: 20.647387 , elements: [ -1.33968 -1838.3569 20.647387 ] [ 1.0812 -1834.4711 20.087603 ] 
+sib.fastconf.EADock3: EADock3Cluster 27 : 6 elements, SimpleFitness: -3.341983, FullFitness: -1838.266 , RMSD: 21.31629 , elements: [ -4.93621 -1838.266 21.31629 ] [ -3.78 -1837.5646 21.09343 ] [ -3.88844 -1837.2378 21.3742 ] [ -2.47075 -1836.5725 21.257996 ] [ -2.22257 -1835.7483 21.404514 ] [ -2.75393 -1835.7261 21.203335 ] 
+sib.fastconf.EADock3: EADock3Cluster 28 : 2 elements, SimpleFitness: -1.1894851, FullFitness: -1838.1761 , RMSD: 16.99976 , elements: [ -1.18259 -1838.1761 16.99976 ] [ -1.19638 -1838.1624 16.96396 ] 
+sib.fastconf.EADock3: EADock3Cluster 29 : 1 elements, SimpleFitness: -1.11603, FullFitness: -1837.8679 , RMSD: 20.183924 , elements: [ -1.11603 -1837.8679 20.183924 ] 
+sib.fastconf.EADock3: EADock3Cluster 30 : 4 elements, SimpleFitness: 2.8638697, FullFitness: -1837.8247 , RMSD: 16.681202 , elements: [ -0.110955 -1837.8247 16.681202 ] [ 0.373453 -1836.4479 16.731298 ] [ 5.55837 -1832.3644 17.911749 ] [ 5.63461 -1832.18 17.747845 ] 
+sib.fastconf.EADock3: EADock3Cluster 31 : 7 elements, SimpleFitness: -2.21285, FullFitness: -1837.5925 , RMSD: 20.786655 , elements: [ -2.72323 -1837.5925 20.786655 ] [ -2.6669 -1837.3069 20.712067 ] [ -2.42574 -1836.8909 19.82599 ] [ -1.89356 -1836.8765 20.35254 ] [ -1.89356 -1836.8765 20.35254 ] [ -1.94348 -1836.8444 20.382643 ] [ -1.94348 -1836.8444 20.382643 ] 
+sib.fastconf.EADock3: EADock3Cluster 32 : 8 elements, SimpleFitness: 1.34183, FullFitness: -1837.2826 , RMSD: 13.488063 , elements: [ 1.25585 -1837.2826 13.488063 ] [ 1.25585 -1837.2826 13.488063 ] [ 1.04028 -1836.9679 13.57263 ] [ 1.04028 -1836.9679 13.57263 ] [ 1.04028 -1836.9679 13.57263 ] [ 1.04028 -1836.9679 13.57263 ] [ 2.03091 -1833.572 13.412031 ] [ 2.03091 -1833.572 13.412031 ] 
+sib.fastconf.EADock3: EADock3Cluster 33 : 2 elements, SimpleFitness: -0.8748945, FullFitness: -1837.0168 , RMSD: 20.903461 , elements: [ -0.88168 -1837.0168 20.903461 ] [ -0.868109 -1837.007 20.942757 ] 
+sib.fastconf.EADock3: EADock3Cluster 34 : 8 elements, SimpleFitness: 0.2865804, FullFitness: -1836.9131 , RMSD: 20.161173 , elements: [ 0.291958 -1836.9131 20.161173 ] [ 0.323892 -1836.8987 20.165413 ] [ 0.593811 -1836.8394 20.069538 ] [ 0.593811 -1836.8394 20.069538 ] [ 0.157176 -1836.6919 20.228807 ] [ 0.0829041 -1836.6248 20.217712 ] [ 0.0829041 -1836.6248 20.217712 ] [ 0.166187 -1836.6028 20.233637 ] 
+sib.fastconf.EADock3: EADock3Cluster 35 : 8 elements, SimpleFitness: -0.9121514, FullFitness: -1836.7489 , RMSD: 20.31093 , elements: [ -0.827652 -1836.7489 20.31093 ] [ -0.827652 -1836.7489 20.31093 ] [ -1.09849 -1836.519 20.215652 ] [ -1.09849 -1836.519 20.215652 ] [ -0.861232 -1836.1509 20.320515 ] [ -0.861232 -1836.1509 20.320515 ] [ -0.861232 -1836.1509 20.320515 ] [ -0.861232 -1836.1509 20.320515 ] 
+sib.fastconf.EADock3: EADock3Cluster 36 : 1 elements, SimpleFitness: 0.42389, FullFitness: -1836.3479 , RMSD: 20.112503 , elements: [ 0.42389 -1836.3479 20.112503 ] 
+sib.fastconf.EADock3: EADock3Cluster 37 : 4 elements, SimpleFitness: 0.7690835, FullFitness: -1835.5773 , RMSD: 20.397373 , elements: [ 0.770241 -1835.5773 20.397373 ] [ 0.769013 -1835.5566 20.396837 ] [ 0.769013 -1835.5566 20.396837 ] [ 0.768067 -1835.5538 20.400082 ] 
+sib.fastconf.EADock3: EADock3Cluster 38 : 2 elements, SimpleFitness: -0.7457065, FullFitness: -1833.0842 , RMSD: 21.951214 , elements: [ -0.74736 -1833.0842 21.951214 ] [ -0.744053 -1833.0519 21.933077 ] 
+sib.fastconf.EADock3: EADock3Cluster 39 : 1 elements, SimpleFitness: 2.10298, FullFitness: -1832.7369 , RMSD: 19.226578 , elements: [ 2.10298 -1832.7369 19.226578 ] 
+sib.fastconf.EADock3: EADock3Cluster 40 : 1 elements, SimpleFitness: 1.24639, FullFitness: -1831.283 , RMSD: 21.066122 , elements: [ 1.24639 -1831.283 21.066122 ] 
+sib.fastconf.EADock3: EADock3Cluster 41 : 2 elements, SimpleFitness: 6.4239902, FullFitness: -1830.0314 , RMSD: 16.892088 , elements: [ 6.42958 -1830.0314 16.892088 ] [ 6.4184 -1829.758 16.879827 ] 
+sib.wrappers.md.charmm.ExtendedCharmmWrapper: CHARMM timers: CPU time: 6.41 seconds
+sib.wrappers.md.charmm.ExtendedCharmmWrapper: CHARMM timers: Elapsed time: 6.43551 seconds.
+ERROR>forrtl: error (78): process killed (SIGTERM)
+sib.wrappers.md.charmm.ExtendedCharmmWrapper: CHARMM timers: CPU time: 45.85 seconds
+sib.wrappers.md.charmm.ExtendedCharmmWrapper: CHARMM timers: Elapsed time: 50.4424 seconds.
+ERROR>forrtl: error (78): process killed (SIGTERM)
+sib.fastconf.EADock3$Flusher: Closing java.util.zip.ZipOutputStream@2802cf63
+sib.fastconf.EADock3$Flusher: Closing java.util.zip.ZipOutputStream@507d811a

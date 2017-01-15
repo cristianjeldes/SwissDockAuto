@@ -1,0 +1,162 @@
+{% extends 'dockautoapp/base.html' %}
+{% block content %}
+<div class="bodyContent center-block">
+	<h2>{{testset.nombretestset}}</h2>
+	<table class="display tablaJobs" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Swissdock id</th>
+                <th>Puntos de entrada a docking</th>
+                <th>Orden</th>
+                <th>Delta G promedio</th>
+                <th>Error promedio</th>
+                <th>Estado</th>
+                <th>Resultado</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Swissdock id</th>
+                <th>Puntos de entrada a docking</th>
+                <th>Orden</th>
+                <th>Delta G promedio</th>
+                <th>Error promedio</th>
+                <th>Estado</th>
+                <th>Resultado</th>
+            </tr>
+        </tfoot>
+        <tbody>
+          {% for job in jobs %}
+            <tr>
+                <td>{{job.swissdockid}}</td>
+                <td>{{job.puntosentrada}}</td>
+                <td>{{job.ordenjob}}</td>
+                <td>{{job.deltagpromedio}}</td>
+                <td>{{job.errorresultado}}</td>
+                <td title="{{job.idestado.descripcion}}">{{job.idestado.nombre}}</td>
+                {% if job.idestado.pk == 2 %}
+	                <td><a href="/verjob/{{job.swissdockid}}">Ver resultado</a></td>
+	            {% else %}
+	                <td>No disponible</td>
+                {% endif %}
+            </tr>
+          {% endfor %}
+        </tbody>
+    </table>
+    <div class="row" style="text-align:center;">
+    	{% if "Terminado" in testset.nombretestset %}
+            <h4>Gif del conjunto de pruebas</h4>
+            <img src="/static/img/{{testset.pk}}{{testset.nombretestset}}{{testset.pk}}.gif">
+            <div style="width:600px !important;margin: 10px auto;">
+                <canvas id="deltagchart" ></canvas>
+            </div>
+            <div style="width:600px !important;margin: 10px auto;">
+                <canvas id="errorchart" ></canvas>
+            </div>
+        {% else %}
+            <span>Gif final y gráfico no disponible, todavía no terminan los jobs de este conjunto de pruebas en ser procesados</span>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+{% block js %}
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.tablaJobs').DataTable();
+} );
+</script>
+<script type="text/javascript">
+    var ctx1 = document.getElementById("deltagchart");
+
+    var myChart = new Chart(ctx1, {
+        type: 'line',
+        data: {
+            labels: {{xChart}},
+            datasets: [{
+                label: 'Delta G Promedio',
+                data: {{deltagChart}},
+                backgroundColor: 'rgba(66,139,202, 0.2)',
+                borderColor: 'rgba(66,139,202, 1)',
+                borderWidth: 1,
+                pointRadius: 1,
+                pointHitRadius: 10,
+                pointHoverRadius: 5,
+                pointHoverBackgroundColor: "rgba(75,192,192,1)",
+                pointHoverBorderColor: "rgba(220,220,220,1)",
+                pointHoverBorderWidth: 2,
+                fill: false,
+            }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                    },
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Delta G promedio'
+                      }
+                }],
+                xAxes: [{
+                    ticks:{
+                        min: -1,
+                        max: {{deltagChart}}.length+0.5,
+                        suggestedMin: -1,
+                        suggestedMax: {{deltagChart}}.length+0.5,
+                    },
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Orden'
+                    }
+                }]
+            }
+        }
+    });
+    var ctx2 = document.getElementById("errorchart");
+
+    var myChart2 = new Chart(ctx2, {
+        type: 'line',
+        data: {
+            labels: {{xChart}},
+            datasets: [{
+                label: 'Error',
+                data: {{errorChart}},
+                backgroundColor: 'rgba(220,20,20, 0.2)',
+                borderColor: 'rgba(220,20,20, 1)',
+                borderWidth: 1,
+                pointRadius: 1,
+                pointHitRadius: 10,
+                pointHoverRadius: 5,
+                pointHoverBackgroundColor: "rgba(220,20,20,1)",
+                pointHoverBorderColor: "rgba(220,220,220,1)",
+                pointHoverBorderWidth: 2,
+                fill: false,
+            }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                    },
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Error'
+                      }
+                }],
+                xAxes: [{
+                    ticks:{
+                        min: -1,
+                        max: {{errorChart}}.length+0.5,
+                        suggestedMin: -1,
+                        suggestedMax: {{errorChart}}.length+0.5,
+                    },
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Orden'
+                    }
+                }]
+            }
+        }
+    });
+</script>
+{% endblock %}
